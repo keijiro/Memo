@@ -14,7 +14,7 @@
 - [ZeroMQ](Pages/ZeroMQ)
 - [Bitwig](Pages/Bitwig.md)
 - [Final Cut](Pages/FinalCut.md)
-- [DaVinci Resolve](Pages/DaVinciResolve)
+- [DaVinci Resolve](Pages/DaVinciResolve.md)
 
 ### Hardware
 
