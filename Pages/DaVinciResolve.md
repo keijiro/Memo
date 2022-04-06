@@ -25,3 +25,4 @@
 - Color processing mode を "HDR DaVinci Wide Gamut Intermediate" に変更。
 - Output color space を "Rec.709-A" に変更。
 - Master Settings を納品フォーマットに変更。
+- Fairlight で Target loudness level を -13 LUFS に変更。
