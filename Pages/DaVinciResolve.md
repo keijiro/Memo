@@ -26,3 +26,7 @@
 - Output color space を "Rec.709-A" に変更。
 - Master Settings を納品フォーマットに変更。
 - Fairlight で Target loudness level を -13 LUFS に変更。
+
+## Tips
+
+- Fairlight の Noise Reduction エフェクトは逆再生のパフォーマンスを著しく低下させる。カット編集を細かく行う（いわゆる「ジェットカット」などのような）場合は、最終調整までこれを入れないようにすべき。カット編集用の入れ子のタイムラインを使った方がいいかもしれない（子のタイムラインでカット編集を行い、親のタイムラインで音の調整を行う）。
