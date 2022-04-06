@@ -11,3 +11,17 @@
 ただし、これは既に Rec.709 で調整されてしまったプロジェクトには適用できない。
 
 既に Rec.709 で調整済みのプロジェクトを Rec.709-A に補正する正式な方法は存在しない（と思われる）。 Timeline の出力を Rec.709-A に変更したうえで、 Adjustment Clip 等を使って手動で再調整を行うしかない。
+
+## 定型ワークフロー
+
+### General Preferences
+
+- General Preferences で "Use Mac display color profiles for viewers" を入れる。
+
+### PProject Settings
+
+- Color Management Color science を "DaVinci YRGB Color Managed" に変更。
+- "Automatic color management" を外す。
+- Color processing mode を "HDR DaVinci Wide Gamut Intermediate" に変更。
+- Output color space を "Rec.709-A" に変更。
+- Master Settings を納品フォーマットに変更。
