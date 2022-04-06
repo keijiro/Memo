@@ -30,3 +30,4 @@
 ## Tips
 
 - Fairlight の Noise Reduction エフェクトは逆再生のパフォーマンスを著しく低下させる。カット編集を細かく行う（いわゆる「ジェットカット」などのような）場合は、最終調整までこれを入れないようにすべき。カット編集用の入れ子のタイムラインを使った方がいいかもしれない（子のタイムラインでカット編集を行い、親のタイムラインで音の調整を行う）。
+- Optimized Media を削除するには `CacheClip/Optimized Media` フォルダを[手動で削除しなければならないらしい。](https://forum.blackmagicdesign.com/viewtopic.php?f=21&t=136275#p734817)
