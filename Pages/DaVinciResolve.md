@@ -27,6 +27,12 @@
 - Master Settings を納品フォーマットに変更。
 - Fairlight で Target loudness level を -13 LUFS に変更。
 
+## アーカイブ化手順
+
+- Project Manager から "Export Project Archive..." を実行。このとき Render Cache は除外しておく。
+- `tar` で固める。
+  - `tar --use-compress-program=pigz -c -v -f Foo.dra.tar.gz Foo.dra`
+
 ## Tips
 
 - Fairlight の Noise Reduction エフェクトは逆再生のパフォーマンスを著しく低下させる。カット編集を細かく行う（いわゆる「ジェットカット」などのような）場合は、最終調整までこれを入れないようにすべき。カット編集用の入れ子のタイムラインを使った方がいいかもしれない（子のタイムラインでカット編集を行い、親のタイムラインで音の調整を行う）。
