@@ -15,6 +15,7 @@
 - [Bitwig](Pages/Bitwig.md)
 - [Final Cut](Pages/FinalCut.md)
 - [DaVinci Resolve](Pages/DaVinciResolve.md)
+- [Ubuntu](Pages/Ubuntu.md)
 
 ### Hardware
 
