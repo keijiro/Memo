@@ -1,25 +1,18 @@
 # Ubuntu Linux System
 
-## マルチブート
+## Windows/Linux マルチブート
 
-Windows とのマルチブートを実現するには物理的にドライブを２つ用意するのが無難。単一ドライブでのマルチブートは OS の再インストール時にトラブルを生じやすい。
+Windows とのマルチブートを実現するには物理的にドライブを２つ用意するのが無難。単一ドライブでのマルチブートは OS の再インストール時にトラブルを生じやすい。十分に気をつければ対処も可能だが、それよりもドライブ増設の手間を受け入れた方が手っ取り早い。
 
 ## インストール手順
 
-- Install Ubuntu using [rufus](https://rufus.ie/) and a USB stick.
-- Install the NVIDIA dirver from "Software & Updates" - "Additional Drivers".
-- Install Mozc input method from "Region & Language" - "Input Sources".
-  - [Modify the keymap](https://qiita.com/nabenabe0928/items/09affae67df9c150ad50) to switch IME with ctrl + space.
-- Install [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage).
-- Install Git, Vim and Vulkan.
+- Ubuntu を USB メモリを使ってインストールする。インストール設定は minimal installation を使う。
+- [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage) をインストール。
+- Git, Vim, Vulkan をインストール。
   - `sudo apt install git vim vulkan-utils`
-- Sign in to GitHub and [add a new SSH key](https://github.com/settings/keys).
+- GitHub にサインインし [SSH key を登録する](https://github.com/settings/keys)。
   - `ssh-keygen -t rsa -b 4096 -C "keijiro@gmail.com"`
-- Clone [dotfiles](https://github.com/keijiro/dotfiles) and run `setup`.
-- (Optional): [Install the latest NVIDIA driver](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux)
-- (Optional): [Disable power management on Wi-Fi](https://unix.stackexchange.com/questions/269661/how-to-turn-off-wireless-power-management-permanently)
-- (Optional): [Disable power management on audio driver](https://ubuntuforums.org/showthread.php?t=1897012&p=11546745#post11546745)
-- (Optional): [Disable USB audio level control](https://askubuntu.com/questions/65565/headphone-output-is-far-too-loud)
+- [dotfiles](https://github.com/keijiro/dotfiles) リポジトリを clone し `setup` スクリプトを実行する。
 
 ## Unity 適合バージョン
 
