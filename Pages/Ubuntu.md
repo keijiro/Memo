@@ -1,5 +1,9 @@
 # Ubuntu Linux System
 
+## マルチブート
+
+Windows とのマルチブートを実現するには物理的にドライブを２つ用意するのが無難。単一ドライブでのマルチブートは OS の再インストール時にトラブルを生じやすい。
+
 ## インストール手順
 
 - Install Ubuntu using [rufus](https://rufus.ie/) and a USB stick.
