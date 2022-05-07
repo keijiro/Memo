@@ -7,7 +7,7 @@ Windows とのマルチブートを実現するには物理的にドライブを
 ## インストール手順
 
 - Ubuntu を USB メモリを使ってインストールする。インストール設定は minimal installation を使う。
-- [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage) をインストール。
+- [Unity Hub Debian repository](https://docs.unity3d.com/hub/manual/InstallHub.html) を使って Unity Hub をインストール。
 - Git, Vim, Vulkan をインストール。
   - `sudo apt install git vim vulkan-utils`
 - GitHub にサインインし [SSH key を登録する](https://github.com/settings/keys)。
