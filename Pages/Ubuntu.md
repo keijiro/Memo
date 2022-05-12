@@ -16,6 +16,12 @@ Windows とのマルチブートを実現するには物理的にドライブを
   - `ssh-keygen -t rsa -b 4096 -C "keijiro@gmail.com"`
 - [dotfiles](https://github.com/keijiro/dotfiles) リポジトリを clone し `setup` スクリプトを実行する。
 
+## Unity for Android 設定手順
+
+- SDK & NDK 付きで Android Support コンポーネントをインストールする。
+- ユーザーの `plugdev` グループへの追加と、 udev rules のインストールを行う。
+  - 詳しい手順は[マニュアルを参照](https://developer.android.com/studio/run/device)。
+
 ## Unity 適合バージョン
 
 2022 年 5 月時点では Ubuntu 22.04 LTS への対応は行われていない。 Unity Hub と Unity Editor の両方で動作に問題が発生する。 Ubuntu 21.04 LTS を使用するのが無難。
