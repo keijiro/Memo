@@ -22,6 +22,8 @@ Windows とのマルチブートを実現するには物理的にドライブを
 - ユーザーの `plugdev` グループへの追加と、 udev rules のインストールを行う。
   - 詳しい手順は[マニュアルを参照](https://developer.android.com/studio/run/device)。
 
+Unity 2021.3.2 の時点では、インストールされたファイルのうち実行形式について `x` パーミッションが外れてしまうという現象が起きている。適当に `bin` ディレクトリなどをスキャンして `chmdo a+x` を行っておく必要がある。
+
 ## Unity 適合バージョン
 
 2022 年 5 月時点では Ubuntu 22.04 LTS への対応は行われていない。 Unity Hub と Unity Editor の両方で動作に問題が発生する。 Ubuntu 21.04 LTS を使用するのが無難。
