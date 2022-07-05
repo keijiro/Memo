@@ -13,3 +13,7 @@
 - Changelog 上では HDRP 13 (2022.1) に記載されているが、今のところは HDRP 14 (2022.2) でないと有効化できない模様。
 - デフォルトでは機能がオフになっているので、色々いじくってオンにしていく必要がある（詳しい手順は忘れた……）。
 - 情報は [Forum](https://forum.unity.com/threads/water-system-for-the-high-definition-render-pipeline.1203751) で提供されている。
+
+## Platform API
+
+- DX12 は 2022.2 以降 experimental タグが外れて正式機能になる。
