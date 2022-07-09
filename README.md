@@ -20,6 +20,7 @@
 
 ### Hardware
 
+- [PC Building](Pages/PCBuilding.md)
 - [MacBook Pro](Pages/MacBookPro.md)
 - [Depth Camera](Pages/DepthCamera.md)
 - [OAK-D-Lite](Pages/OAK-D-Lite.md)
