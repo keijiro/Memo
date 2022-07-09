@@ -47,3 +47,9 @@ http://www.nagao-ss.co.jp/n-frame-matx.html
 https://xtia.design/pages/xproto-mini
 
 専用の小型電源が提供されているのが有利
+
+### Densium 4
+
+https://densium.net/products/densium-4-v2
+
+これも専用電源あり
