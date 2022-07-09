@@ -26,7 +26,13 @@ https://nfc-systems.com/skyreach-4-mini
 
 https://www.dan-cases.com/dana4.php
 
-コンパクトさでは負けるが、 MINI ATX としてはかなり真っ当な作りをしていて、メンテ性に優れている。スーツケースに入るサイズの SFF ケースとしては最も無難。
+コンパクトさでは負けるが、 Mini-ITX としてはかなり真っ当な作りをしていて、メンテ性に優れている。スーツケースに入るサイズの SFF ケースとしては最も無難。
+
+### NCASE M1
+
+https://ncases.com/products/m1
+
+だいぶ余裕のある作り。家使いの Mini-ITX 候補として。
 
 ### 長尾製作所・オープンフレーム PC
 
