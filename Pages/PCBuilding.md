@@ -53,3 +53,9 @@ https://xtia.design/pages/xproto-mini
 https://densium.net/products/densium-4-v2
 
 これも専用電源あり。次の有力候補。
+
+## 小型ケースで PC を自作する際のコツ
+
+- 情報収集は [SFF.Network](https://smallformfactor.net/forum/) で行う。
+- SFF ケースはパーツの組み合わせによる干渉問題が生じやすい。無難な組み合わせを事前に [PCPartPicker](https://pcpartpicker.com) 等で調べておくこと。
+- 特殊な SFF ケースの生産量は限られている。欲しいケースを見つけたら、今すぐ組む予定が無くとも、在庫があるうちに入手しておいた方が良い。
