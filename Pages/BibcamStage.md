@@ -6,3 +6,6 @@
 
 - Windows PC (Ryzen 7 3700X, GeForce RTX 2060 SUPER)
 - MacBook Pro (M1 Max, Late 2021)
+- Novation Launch Control XL
+- Komplete Audio 2
+- Anker PowerExpand+ 5-in-1 (USB-C ethernet hub)
