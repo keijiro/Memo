@@ -3,6 +3,7 @@
 - [Unity Native Plugin](Pages/UnityNativePlugin.md)
 - [Unity Visual Scripting](Pages/UnityVisualScripting.md)
 - [Unity HDRP](Pages/UnityHDRP.md)
+- [Unity DXR](Pages/UnityDXR.md)
 - [360-Degree Panorama](Pages/360DegreePanorama.md)
 - [C# Interop](Pages/CSharpInterop.md)
 - [Rust](Pages/RustLanguage.md)
