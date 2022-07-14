@@ -9,3 +9,13 @@
 - Novation Launch Control XL
 - Komplete Audio 2
 - Anker PowerExpand+ 5-in-1 (USB-C ethernet hub)
+
+## プロジェクトリポジトリ
+
+https://github.com/keijiro/BibcamStage
+
+Unity プロジェクトと Bitwig プロジェクトを含む。
+
+- Bibcam クリップはリポジトリに含まれていない。別途用意して `StreamingAssets` に入れておく必要がある。
+- Bitwig に [vzo プラグイン](https://github.com/keijiro/vzo) のインストールが必要。
+- Bitwig の標準音源パックが必要。
