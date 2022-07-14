@@ -5,12 +5,15 @@
 ![Schematics](https://user-images.githubusercontent.com/343936/178990585-e5e53546-8cbe-4033-aa50-d5e13e80ff16.png)
 
 - Windows PC (Ryzen 7 3700X, GeForce RTX 2060 SUPER)
+- UPERFECT X Lapdock
 - MacBook Pro (M1 Max, Late 2021)
 - Novation Launch Control XL
 - Komplete Audio 2
 - Anker PowerExpand+ 5-in-1 (USB-C ethernet hub)
 
-## プロジェク構成
+`BibcamStage` は MacBook 上での動作も可能な仕様だったが、 Unity 側で「Metal 使用時に定期的にスパイクが発生する」という不具合が発生しており、代替として Windows PC を用いざるを得なかった。Windows PC の運用は UPERFECT X の導入でかなり楽になったものの、演者卓でこれを展開するのはやはり若干手間だった。次回はできれば MBP + MBA の最小構成にまとめたい。
+
+## プロジェクト構成
 
 https://github.com/keijiro/BibcamStage
 
