@@ -2,7 +2,7 @@
 
 ## システム構成
 
-![figure](https://user-images.githubusercontent.com/343936/178763311-e83292d4-b131-485c-ba31-cc82751dbd75.png)
+![Figure](https://user-images.githubusercontent.com/343936/178990460-5786dabc-ab2e-4988-a138-09b7372ab209.png)
 
 - Windows PC (Ryzen 7 3700X, GeForce RTX 2060 SUPER)
 - MacBook Pro (M1 Max, Late 2021)
