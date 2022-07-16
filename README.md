@@ -13,7 +13,7 @@
 - [MIDI](Pages/MIDI.md)
 - [FFmpeg](Pages/FFmpeg.md)
 - [NDI](Pages/NDI.md)
-- [ZeroMQ](Pages/ZeroMQ)
+- [ZeroMQ](Pages/ZeroMQ.md)
 - [Bitwig](Pages/Bitwig.md)
 - [Final Cut](Pages/FinalCut.md)
 - [DaVinci Resolve](Pages/DaVinciResolve.md)
