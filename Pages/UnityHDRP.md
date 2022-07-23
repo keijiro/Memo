@@ -20,5 +20,5 @@
 
 ## DXR
 
-- 2022.1 以降、なぜかコンパイルエラーが発生する（発生しない人もいるらしい）。問い合わせ済み。
-- 2022.2 以降、 pathtracing で denoiser が使えるらしい（未検証）。
+- Visual C++ Runtime がインストールされていないと raytracing shader のコンパイルに失敗するという不具合が発生している（2022.1 以降）。
+- 2022.2 から pathtracing において OptiX, Open Image 等の denoiser が使えるようになった。これにより pathtracing は一気に実用レベルになった。
