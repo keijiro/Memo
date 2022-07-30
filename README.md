@@ -32,6 +32,7 @@
 
 ### Knowledge
 
+- [Google Cloud Storage](Pages/GoogleCloudStorage.md)
 - [Motion Capture](Pages/MotionCapture.md)
 - [Camera Tracking](Pages/CameraTracking.md)
 - [Backup Strategy](Pages/BackupStrategy.md)
