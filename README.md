@@ -2,6 +2,7 @@
 
 - [Unity Native Plugin](Pages/UnityNativePlugin.md)
 - [Unity Visual Scripting](Pages/UnityVisualScripting.md)
+- [Unity Burst Compiler](Pages/UnityBurstCompiler.md)
 - [Unity HDRP](Pages/UnityHDRP.md)
 - [Unity DXR](Pages/UnityDXR.md)
 - [Unity DXR Path Tracing](Pages/UnityPathTracing.md)
