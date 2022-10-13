@@ -4,13 +4,9 @@
 
 [YouTube は BT.709 1-1-1 を前提としている](https://support.google.com/youtube/answer/1722171?hl=en#zippy=%2Ccolor-space)（これは Resolve 上の Rec.709-A に相当する）ため、普通の設定（結果的に BT.709 1-2-1 になる）で出力すると、エンコード時に色が薄くなるという現象が発生する。
 
-これを避けるには、 Resolve 上でも Rec.709-A で編集を行う必要がある。
+これを避けるには Resolve 上でも Rec.709-A でモニタリングを行う必要がある。最も簡単なのは、[この動画](https://www.youtube.com/watch?v=8tiF-EnTlto)の設定をそのまま使うこと。
 
-最も簡単なのは、[この動画](https://www.youtube.com/watch?v=8tiF-EnTlto)の設定をそのまま使うこと。
-
-ただし、これは既に Rec.709 で調整されてしまったプロジェクトには適用できない。
-
-既に Rec.709 で調整済みのプロジェクトを Rec.709-A に補正する正式な方法は存在しない（と思われる）。 Timeline の出力を Rec.709-A に変更したうえで、 Adjustment Clip 等を使って手動で再調整を行うしかない。
+ただし、これは既に Rec.709 で調整されてしまったプロジェクトに適用することは難しい。Timeline の出力を Rec.709-A に変更したうえで、 Adjustment Clip 等を使って手動で再調整を行うしかない。
 
 ## 定型ワークフロー
 
