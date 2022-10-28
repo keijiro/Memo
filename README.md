@@ -32,6 +32,7 @@
 - [Keyboard](Pages/Keyboard.md)
 - [Mirrorless Camera](Pages/MirrorlessCamera.md)
 - [Blackmagic Design Products](Pages/Blackmagic.md)
+- [Meta Quest Pro](Pages/QuestPro.md)
 
 ### Knowledge
 
