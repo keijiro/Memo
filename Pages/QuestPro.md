@@ -35,11 +35,11 @@ Developer Mode は Passthrough on Quest Link を使用するのに有効化す�
 - 色がズレる。特にカメラの近くにあるオブジェクトについて色ズレが発生する。カラーカメラの解像度の低さを補うためにモノクロカメラとの合成を行っているのか？ それをやる場合は視点位置の違いを吸収するためにデプスを参照するため、そのような色ズレが発生することは想像できる。
 - 基本的な画質の低さ。かなり強めの感度調整を行っているらしく、屋内環境下では常にノイズを強く生じる。クリアな画を得ることはできない。
 
-## Higher quality video capture
+## 録画の品質変更
+
+デフォルトの録画設定は 30 fps でアスペクト比が 1:1 となっており、見栄えに欠ける。これは `adb` 経由で変更が可能。
 
 ```
-#!/bin/sh
-cd '/mnt/c/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platform-tools'
 ./adb.exe shell setprop debug.oculus.capture.width 1920
 ./adb.exe shell setprop debug.oculus.capture.height 1080
 ./adb.exe shell setprop debug.oculus.fullRateCapture 1
