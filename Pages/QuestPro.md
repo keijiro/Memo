@@ -52,3 +52,9 @@ Developer Mode は Passthrough on Quest Link を使用するのに有効化す�
 - 基本的には標準の XR + Oculus パッケージで開発が可能だが、パススルーのような特殊な機能を使うことは出来ない。
 - Paththrough on Quest Link を使うことでエディタ上でもパススルーの検証を行うことができるようになっているが、残念ながら実用的なフレームレートは出ない。
   - ケーブルのせいかもしれないので、いずれ純正ケーブルを試したい。
+
+## グラフィクス
+
+- URP (forward rendering) + VFX Graph を基本とする。Graphics API は Vulkan を選択。
+- VFX Graph の動作は（今のところ）問題無い。
+- VFX Graph はフィルレートを酷使するような使い方をするとパフォーマンスが追いつかなくなる。微小なパーティクルであればかなりの数が同時に出せる。
