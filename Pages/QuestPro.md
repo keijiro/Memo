@@ -40,11 +40,13 @@ Developer Mode は Passthrough on Quest Link を使用するのに有効化す�
 デフォルトの録画設定は 30 fps でアスペクト比が 1:1 となっており、見栄えに欠ける。これは `adb` 経由で変更が可能。
 
 ```
-./adb.exe shell setprop debug.oculus.capture.width 1920
-./adb.exe shell setprop debug.oculus.capture.height 1080
-./adb.exe shell setprop debug.oculus.fullRateCapture 1
+./adb.exe shell setprop debug.oculus.capture.width 2048
+./adb.exe shell setprop debug.oculus.capture.height 2048
 ./adb.exe shell setprop debug.oculus.capture.bitrate 30000000
+./adb.exe shell setprop debug.oculus.fullRateCapture 1
 ```
+
+アスペクト比は 1:1 にしておくのが無難。 16:9 などのように横長にすると、視界のどの部分が画角に入っているか把握しにくく、効果的な画を撮ることが難しい。
 
 ## 開発手段
 
