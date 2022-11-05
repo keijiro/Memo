@@ -44,6 +44,7 @@
 - [General Lifehack](Pages/Lifehack.md)
 - [現場ノウハウ](Pages/VideoProductionTips.md)
 - [収納整理](Pages/StorageAndOrganizer.md)
+- [ホームスタジオ](Pages/HomeStudio.md)
 
 ### Project Logs
 
