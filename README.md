@@ -45,6 +45,7 @@
 - [現場ノウハウ](Pages/VideoProductionTips.md)
 - [収納整理](Pages/StorageAndOrganizer.md)
 - [ホームスタジオ](Pages/HomeStudio.md)
+- [海外出張](Pages/TravelTips.md)
 
 ### Project Logs
 
