@@ -46,6 +46,7 @@
 - [収納整理](Pages/StorageAndOrganizer.md)
 - [ホームスタジオ](Pages/HomeStudio.md)
 - [海外出張](Pages/TravelTips.md)
+- [老いる、とは](Pages/GrowingOld.md)
 
 ### Project Logs
 
