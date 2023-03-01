@@ -29,3 +29,16 @@ https://github.com/nerfstudio-project/nerfstudio
 
 オープンソースのツールセット。とりあえずこれを使うのが良さそう。
 
+## リンク集
+
+https://github.com/awesome-NeRF/awesome-NeRF
+
+とりあえずいつもの awesome のやつ。
+
+## 高速推論
+
+いくつか候補があるが、とりあえず良さそうだったのは SNeRG。
+
+https://phog.github.io/snerg
+
+WebGL で軽量なデモが実装されているので、ストレートな移植で試すことができそう。
