@@ -15,3 +15,17 @@ https://www.youtube.com/watch?v=YX5AoaWrowY
 - ストレージやメモリの消費量は激しい。リソース節約の手段として活きる場面はあまり無さそう。
 - ツール類はまだあまり整備されていない。当初と比べればボチボチ出てきている方だが……
 
+## ツール
+
+### Luma AI
+
+https://lumalabs.ai
+
+なんか良さげだが情報が非公開過ぎる。自前で応用するのは難しそう。
+
+### Nerfstudio
+
+https://github.com/nerfstudio-project/nerfstudio
+
+オープンソースのツールセット。とりあえずこれを使うのが良さそう。
+
