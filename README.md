@@ -47,6 +47,7 @@
 - [ホームスタジオ](Pages/HomeStudio.md)
 - [海外出張](Pages/TravelTips.md)
 - [老いる、とは](Pages/GrowingOld.md)
+- [NeRF](Pages/NeRF.md)
 
 ### Project Logs
 
