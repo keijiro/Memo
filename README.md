@@ -48,6 +48,7 @@
 - [海外出張](Pages/TravelTips.md)
 - [老いる、とは](Pages/GrowingOld.md)
 - [NeRF](Pages/NeRF.md)
+- [Stable Diffusion](Pages/StableDiffusion.md)
 
 ### Project Logs
 
