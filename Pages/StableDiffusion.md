@@ -43,6 +43,7 @@ Apple の実装を元にしているものの、サンプラーが DPM-Solver++ 
 - しかしそれでもなお M1 で GPU の強いマシンには勝つことができない。
 - 従って現状では M1 の高 GPU スペックマシンを選択するのが望ましいと考えられる。
 - M2 において 32 core Neural Engine が実現されたら、状況は変わるかもしれない。
+- とりあえず現状 (M2 Max with 16 core NE) において[状況は変わらないようだ](https://github.com/huggingface/swift-coreml-diffusers/issues/31#issuecomment-1459489496)。
 
 ## プロンプトエンジニアリング
 
