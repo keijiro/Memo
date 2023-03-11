@@ -25,6 +25,18 @@ https://github.com/huggingface/swift-coreml-diffusers
 
 Apple の実装を元にしているものの、サンプラーが DPM-Solver++ に差し替えられている。少ないステップ数で高品質な結果を得ることができる（はず）。
 
+#### パフォーマンス
+
+- Model: Stable Diffusion v2 (base)
+- Guidance scale: 7.5
+- Step count: 10
+
+|               | M1 Max MBP | M2 MBA |
+| ------------- | ---------- | ------ |
+| GPU           |       3.3s |   8.5s |
+| Neural Engine |       6.1s |   4.4s |
+| GPU + NE      |       5.6s |   5.0s |
+
 ## プロンプトエンジニアリング
 
 https://lexica.art/
