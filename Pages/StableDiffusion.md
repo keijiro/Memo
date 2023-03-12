@@ -50,3 +50,12 @@ Apple の実装を元にしているものの、サンプラーが DPM-Solver++ 
 https://lexica.art/
 
 参考になるようなならないような……以前はプロンプト共有サイトというような体裁であったが、最近は独自モデルを提供しており、汎用的な AI アートサービスとして元を取る形へとピボットしたようだ。
+
+## セットアップ
+
+1. [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion) を clone する。
+2. [coreml-stable-diffusion-2-base](https://huggingface.co/apple/coreml-stable-diffusion-2-base) を clone する。
+3. `ml-stable-diffusion/swift` ディレクトリへ移動。
+4. `swift run StableDiffusionSample` でサンプルを実行。
+
+README にはモデルの変換が必要みたいなことが書いてあるが、上記リポジトリには変換済みのファイルが含まれている。
