@@ -24,6 +24,10 @@ https://www.youtube.com/watch?v=wakmaa5_GQk&t=152s
 
 結論： 16" を選択すべき
 
+## Neural Engine は考慮に入れるべきか
+
+現状、Neural Engine のメリットが現れるのは低スペックマシンの場合のみであり、高スペック環境では GPU の動作が支配的となる。Neural Engine のスペックは考慮から完全に外して構わないの。
+
 ## M1 Max MBP との性能比較
 
 ### Hugging Face Diffusers
