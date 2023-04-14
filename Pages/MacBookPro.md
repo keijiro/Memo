@@ -18,6 +18,10 @@ ProMotion を有効にしている場合、 Unity Editor および Standalone Pl
 - しかし極限まで GPU を酷使するベンチマークでは差が出る。 10% 程度出ることも。
 - 価格差はそこまで大きくない（３〜４万円程度）
 
+https://www.youtube.com/watch?v=wakmaa5_GQk&t=152s
+
+最高スペック構成で 3D ベンチマークで 20% 程度の差が出ている。
+
 結論： 16" を選択すべき
 
 ## M1 Max MBP との性能比較
