@@ -57,9 +57,8 @@ HuggingFace によるサンプルアプリ。デフォルトのサンプラー�
 
 ```
 python -m python_coreml_stable_diffusion.torch2coreml --attention-implementation ORIGINAL\
-  --convert-unet --convert-text-encoder --convert-vae-decoder --convert-vae-encoder\
-  --model-version stabilityai/stable-diffusion-2-base --bundle-resources-for-swift-cli\
-  -o models
+  --chunk-unet --convert-unet --convert-text-encoder --convert-vae-decoder --convert-vae-encoder\
+  --model-version stabilityai/stable-diffusion-2-base --bundle-resources-for-swift-cli -o models
 ```
 
 ### その他注意点
