@@ -62,6 +62,10 @@ python -m python_coreml_stable_diffusion.torch2coreml --attention-implementation
   -o models
 ```
 
+### その他注意点
+
+- 0.4.0 以降に導入された高速化処理の影響でモデルファイルの互換性が断絶している。Text To Image であれば実行が可能であるが、 Image To Image では例外が発生する。これに対処するには、0.4.0 以降のバージョンの torch2coreml を使ってモデルを再変換する必要がある。
+
 ## プロンプトエンジニアリング
 
 https://lexica.art/
