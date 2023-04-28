@@ -47,6 +47,21 @@ HuggingFace によるサンプルアプリ。デフォルトのサンプラー�
 - しかしそれでもなお GPU の強いマシンには勝つことができない。
 - とりあえず現状では GPU だけを性能評価基準軸として見ておけばよい。
 
+### モデル変換
+
+基本的には "Converting Models to Core ML" にある通りの手順でコンバートできる。
+
+個人的に Anaconda の使用は好まないが、`conda` を使わずに変換することは難しい。大人しくインストールせざるを得ない。
+
+"Original" モデルの `.mlmodelc` ファイル群を得るために発行するコマンドは下記のようになる。
+
+```
+python -m python_coreml_stable_diffusion.torch2coreml --attention-implementation ORIGINAL\
+  --convert-unet --convert-text-encoder --convert-vae-decoder --convert-vae-encoder\
+  --model-version stabilityai/stable-diffusion-2-base --bundle-resources-for-swift-cli\
+  -o models
+```
+
 ## プロンプトエンジニアリング
 
 https://lexica.art/
