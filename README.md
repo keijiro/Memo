@@ -21,6 +21,7 @@
 - [DaVinci Resolve](Pages/DaVinciResolve.md)
 - [Ubuntu](Pages/Ubuntu.md)
 - [DCC Tool](Pages/DCCTool.md)
+- [Misc Tools](Pages/MiscTools.md)
 
 ### Hardware
 
