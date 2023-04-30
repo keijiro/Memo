@@ -69,6 +69,12 @@ https://github.com/apple/ml-stable-diffusion/issues/140#issuecomment-1465066997
 
 - 0.4.0 以降に導入された高速化処理の影響でモデルファイルの互換性が断絶している。Text To Image であれば実行が可能であるが、 Image To Image では例外が発生する。これに対処するには、0.4.0 以降のバージョンの torch2coreml を使ってモデルを再変換する必要がある。一応 [issue は投げた](https://github.com/apple/ml-stable-diffusion/issues/176)が、正直な所、誰がどう対処すべきなのかよく分からない。単純に公開されているコンパイル済みモデルを一通り再コンパイルして再公開するのが最適解か？
 
+## Web UI
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+[Apple silicon 向けの手順書](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)があるので、単純に従えば問題無くインストールできる。
+
 ## プロンプトエンジニアリング
 
 https://lexica.art/
