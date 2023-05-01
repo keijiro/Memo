@@ -70,7 +70,7 @@ python -m python_coreml_stable_diffusion.torch2coreml --attention-implementation
 ```
 python -m python_coreml_stable_diffusion.torch2coreml --latent-w 80 --latent-h 48\
   --attention-implementation ORIGINAL --chunk-unet --convert-unet --convert-text-encoder\
-  --convert-vae-decoder --convert-vae-encoder --model-version apple/stable-diffusion-2-1-base\
+  --convert-vae-decoder --convert-vae-encoder --model-version stabilityai/stable-diffusion-2-1-base\
   --bundle-resources-for-swift-cli -o models/sd21-640x384
 ```
 
