@@ -61,6 +61,19 @@ python -m python_coreml_stable_diffusion.torch2coreml --attention-implementation
   --model-version stabilityai/stable-diffusion-2-base --bundle-resources-for-swift-cli -o models
 ```
 
+### 16:9 に近いアスペクト比を使う
+
+64 の倍数を使う必要がある都合上、正確に 16:9 のアスペクト比を使うのは無理がある。
+
+総画素数を考慮に入れて 16:9 に近いアスペクト比を狙うとなると、640x384 辺りが妥当か？ (16:9.6)
+
+```
+python -m python_coreml_stable_diffusion.torch2coreml --latent-w 80 --latent-h 48\
+  --attention-implementation ORIGINAL --chunk-unet --convert-unet --convert-text-encoder\
+  --convert-vae-decoder --convert-vae-encoder --model-version apple/stable-diffusion-2-1-base\
+  --bundle-resources-for-swift-cli -o models/sd21-640x384
+```
+
 ### 解像度変更
 
 https://github.com/apple/ml-stable-diffusion/issues/140#issuecomment-1465066997
