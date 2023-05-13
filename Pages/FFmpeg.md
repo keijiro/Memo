@@ -1,17 +1,26 @@
+## 時間指定
+
+2:00 から 5:00 までを切り出す
+
+```
+ffmpeg -i source.mov -ss 2 -t 3 out.mp4
+```
+
+## H.264
+
+- `pix_fmt` で明示的に `yuv420p` を指定した方が互換性は高くなる。
+- 画質の調整には `crf` が便利。10 以下でかなりの高画質になり、0 で lossless が使用できる。
+
+```
+ffmpeg -i source.mov -pix_fmt yuv420p -crf 5 out.mp4
+```
+
 ## gif
 
 30 FPS、 64 色、幅 500 ピクセルの gif に変換
 
 ```
 ffmpeg -y -i source.mp4 -filter_complex "[0:v] fps=30,scale=500:-1,split [a][b];[a] palettegen=max_colors=64 [p];[b][p] paletteuse=dither=floyd_steinberg" out.gif
-```
-
-## mp4
-
-2:00 から 5:00 までオーディオ無しの高画質 mp4 に変換
-
-```
-ffmpeg -i source.mov -pix_fmt yuv420p -crf 5 -an -ss 2 -t 3 out.mp4
 ```
 
 ## Test video
