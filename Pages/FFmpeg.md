@@ -8,10 +8,10 @@ ffmpeg -y -i source.mp4 -filter_complex "[0:v] fps=30,scale=500:-1,split [a][b];
 
 ## mp4
 
-2:00 から 5:00 までオーディオ無しの mp4 に変換
+2:00 から 5:00 までオーディオ無しの高画質 mp4 に変換
 
 ```
-ffmpeg -i source.mov -pix_fmt yuv420p -an -ss 2 -t 3 out.mp4
+ffmpeg -i source.mov -pix_fmt yuv420p -crf 5 -an -ss 2 -t 3 out.mp4
 ```
 
 ## Test video
