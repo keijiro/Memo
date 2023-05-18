@@ -16,5 +16,8 @@ https://www.cisco.com/c/en/us/products/wireless/wap150-wireless-ac-n-dual-radio-
 
 https://apps.apple.com/us/app/discovery-dns-sd-browser/id1381004916?mt=12
 
-ファクトリリセットを行いたい場合は、電源を入れてからリセットボタンを長押しする（一旦ライトが消えてから再点灯するので、それまで押しっぱなしにする）。
+ファクトリリセットを行いたい場合は、電源を入れてからリセットボタンを長押しする（一旦ライトが消えてから再点灯するので、それまで押しっぱなしにする）。ファクトリリセット後は `CiscoSB-Setup` という SSID でセットアップ画面に繋げられる。デフォルトパスワードは `cisco123` となっている。
 
+### 現在のセットアップ内容
+
+SSID は `WhiteBox-2.4GHz`/`WhiteBox-5GHz` とした。それ以外の設定はほぼデフォルトのまま。
