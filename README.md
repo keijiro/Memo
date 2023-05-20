@@ -34,7 +34,6 @@
 - [Mirrorless Camera](Pages/MirrorlessCamera.md)
 - [Blackmagic Design Products](Pages/Blackmagic.md)
 - [Meta Quest Pro](Pages/QuestPro.md)
-- [Network Devices](Pages/NetworkDevices.md)
 
 ### Knowledge
 
@@ -51,6 +50,7 @@
 - [老いる、とは](Pages/GrowingOld.md)
 - [NeRF](Pages/NeRF.md)
 - [Stable Diffusion](Pages/StableDiffusion.md)
+- [Wi-Fi](Pages/WiFi.md)
 
 ### Project Logs
 
