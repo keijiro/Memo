@@ -22,6 +22,7 @@
 - [Ubuntu](Pages/Ubuntu.md)
 - [DCC Tool](Pages/DCCTool.md)
 - [Misc Tools](Pages/MiscTools.md)
+- [Remote Desktop](Pages/RemoteDesktop.md)
 
 ### Hardware
 
