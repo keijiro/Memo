@@ -86,7 +86,13 @@ https://github.com/apple/ml-stable-diffusion/issues/140#issuecomment-1465066997
 
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
+### Apple silicon Mac
+
 [Apple silicon 向けの手順書](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)があるので、単純に従えば問題無くインストールできる。
+
+### WSL2
+
+基本的には Linux 向けのセットアップ手順に従えばインストールできる。
 
 ## プロンプトエンジニアリング
 
