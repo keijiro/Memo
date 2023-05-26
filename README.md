@@ -23,6 +23,7 @@
 - [DCC Tool](Pages/DCCTool.md)
 - [Misc Tools](Pages/MiscTools.md)
 - [Remote Desktop](Pages/RemoteDesktop.md)
+- [WSL2](Pages/WSL2.md)
 
 ### Hardware
 
