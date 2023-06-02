@@ -2,6 +2,16 @@
 
 ## ネットワーク
 
+### BCW730J (cable modem)
+
+[製品マニュアル](https://www.itscom.co.jp/support/internet/manual/gjslkq000000olyq-att/BCW730J.pdf)
+
+Wi-Fi アクセスポイントとしての性能はそれほど高くない。これを補うために Wi-Fi アクセスポイントは別途用意し、このモデムの Wi-Fi 機能は切ることにした。
+
+２ヶ月に１度ぐらいの頻度で調子が悪くなる。パワーサイクリングによってほぼ確実に解決する。
+
+設定 web インタフェースは [192.168.0.1](http://192.168.0.1) からアクセスできる。
+
 ### NEC Aterm WX5400HP (Wi-Fi AP)
 
 [製品情報](https://www.aterm.jp/product/atermstation/product/warpstar/wx5400hp/),
