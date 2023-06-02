@@ -1,3 +1,18 @@
+# ホームスタジオ装備メモ
+
+## ネットワーク
+
+### NEC Aterm WX5400HP (Wi-Fi AP)
+
+[製品情報](https://www.aterm.jp/product/atermstation/product/warpstar/wx5400hp/),
+[ユーザーマニュアル](https://www.aterm.jp/function/wx5400hp/index.html)
+
+ブリッジモードで使用（背面スイッチを “BR” に設定）。ACTIVE ランプが橙点灯するのが正常状態。
+
+ブリッジモードで設定を行うには強制 DHCP サーバーを有効化する必要がある。強制 DHCP サーバーを起動するには、SET ボタンを押下したまま電源を入れる。ACTIVE ランプが橙点滅を始めたらボタンを放してよい。
+
+強制 DHCP サーバーが有効化された状態で [192.158.1.210](http://192.168.1.210/) から web インタフェースにアクセスできる。
+
 # ホームスタジオ DIY 計画
 
 ## 壁
