@@ -23,6 +23,14 @@ ffmpeg -i source.mov -pix_fmt yuv420p -crf 5 out.mp4
 ffmpeg -y -i source.mp4 -filter_complex "[0:v] fps=30,scale=500:-1,split [a][b];[a] palettegen=max_colors=64 [p];[b][p] paletteuse=dither=floyd_steinberg" out.gif
 ```
 
+## 連番画像
+
+`frame0000.png` から始まる連番画像を HAP コーデックを使用した QuickTime クリップに変換
+
+```
+ffmpeg -i frame%04d.png -c:v hap out.mov
+```
+
 ## Test video
 
 libavfilter によるテストビデオの生成
