@@ -21,6 +21,12 @@ Generator のソースコードは `Unity.Entities/SourceGenerators/Source~/Syst
 
 Subscene を使わなくても ECS の API を叩いて entity/components を生成する方法はあるが、通常の baking を使ったワークフローではなくなる。通常の Baker を使ったワークフローを「オーサリング」と定義するならば、オーサリングに subscene は必須であると言えよう。
 
+### Subscene 内でオーサリングしたものが ECS に変換される？
+
+厳密な表現を行うならば「Authoring subscene 内に組み立てた Game Object ベースのヒエラルキーが baking によって、entity subscene へと変換される」となるか。表層だけを見て言い表すなら「Subscene にオーサリングしたものが ECS に変換されて動く」と言えるが。
+
+https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/conversion-scene-overview.html
+
 ### Prefab の扱いは？
 
 `Baker` の `GetEntity` を使用することで prefab が baking 対象として登録される、という理解で良い。
