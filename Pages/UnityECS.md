@@ -39,6 +39,16 @@ https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/conversion-subsc
 
 https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/concepts-entities.html
 
+### Serialization/Deserialization は本当に速いのか？
+
+ECS における serialization は以下の２レイヤーに分けられる。
+
+`Unity.Entities/Serialization/DotsSerialization.cs` - RIFF 的なファイルフォーマットを定義したもの。コンテナ。
+
+`Unity.Entities/Serialization/SerializeUtility.cs` - `DotsSerialization` を使って serialization/deserialization を行う実装。
+
+そこそこ構造が複雑で全体の流れを把握することは難しいが、`Chunk` 単位での読み書きが行われていることは簡単に確認できる（`WriteChunks` メソッド）。
+
 ### Prefab の扱いは？
 
 `Baker` の `GetEntity` を使用することで prefab が baking 対象として登録される、という理解で良い。
