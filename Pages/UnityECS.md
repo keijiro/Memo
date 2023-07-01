@@ -33,6 +33,12 @@ https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/conversion-scene
 
 https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/conversion-subscenes.html
 
+### Entity は本当に単なる ID?
+
+実際には Version 値も持っているが、実質的には ID と考えてよいだろう。ドキュメント上でもそう説明されている。
+
+https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/concepts-entities.html
+
 ### Prefab の扱いは？
 
 `Baker` の `GetEntity` を使用することで prefab が baking 対象として登録される、という理解で良い。
