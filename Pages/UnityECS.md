@@ -20,3 +20,9 @@ Generator のソースコードは `Unity.Entities/SourceGenerators/Source~/Syst
 ### ECS のオーサリングは必ず subscene 内で行わないといけないのか？
 
 Subscene を使わなくても ECS の API を叩いて entity/components を生成する方法はあるが、通常の baking を使ったワークフローではなくなる。通常の Baker を使ったワークフローを「オーサリング」と定義するならば、オーサリングに subscene は必須であると言えよう。
+
+### Prefab の扱いは？
+
+`Baker` の `GetEntity` を使用することで prefab が baking 対象として登録される、という理解で良い。
+
+https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/baking-prefabs.html
