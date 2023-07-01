@@ -2,11 +2,7 @@
 
 ## Source generators
 
-Source generator のソースコードは `Unity.Entities/SourceGenerators/Source~/SystemGenerator` 下に格納されている。
-
-以下、README から転載。
-
-Source generator は以下の機能を提供するために用いられる。
+Entities パッケージにおいて source generator は以下の機能を提供するために用いられる。
 
 - Entities.ForEach
 - Job.WithCode
@@ -15,4 +11,6 @@ Source generator は以下の機能を提供するために用いられる。
 - SystemAPI
 - IJobEntity
 
-Generator は type, method, partial type の追加を行うことでこれを実現する。特定の条件下においては、既存コードに対するパッチングも Cloner IL ポストプロセスを使って行われる。
+これらの generator は新規の型や partial 型、メソッドの追加を行うことでこれを実現する。特定の条件下においては、コードの追加だけでなく既存コードに対するパッチングも行われる（ただしこれは別途 Cloner IL posotprocessor によって行われる）
+
+Generator のソースコードは `Unity.Entities/SourceGenerators/Source~/SystemGenerator` 下に格納されている。
