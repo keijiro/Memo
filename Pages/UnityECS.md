@@ -27,6 +27,12 @@ Subscene を使わなくても ECS の API を叩いて entity/components を生
 
 https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/conversion-scene-overview.html
 
+### Subscene のチェックボックスを入れる操作は「ロード」？
+
+正しくは "Open" と言うべきか。
+
+https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/conversion-subscenes.html
+
 ### Prefab の扱いは？
 
 `Baker` の `GetEntity` を使用することで prefab が baking 対象として登録される、という理解で良い。
