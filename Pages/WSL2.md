@@ -18,6 +18,10 @@ Windows-Linux 間では相互にファイルシステムの参照が可能だが
 
 この作業用 Windows プロジェクトディレクトリ構築を行うためのシェルスクリプトを作成した [make-unity-symlink](https://github.com/keijiro/dotfiles/blob/master/bin/make-unity-symlink)
 
+### 欠点
+
+Unity Editor から各アセットファイルを読み出す際の速度は低下するので、巨大なプロジェクトをこの手法で管理するのは望ましくないだろう。結局のところ、巨大プロジェクトについては Git for Windows をインストールして Windows 側で管理を行うようにすべき。
+
 ## Linux 側に立てたサーバーを LAN 内でアクセス可能にする
 
 Linux 側のポートを LAN へ露出するために `netsh` コマンドを使って port proxy を作成する必要がある。これを行うためのシェルスクリプトを作成した [make-portproxy](https://github.com/keijiro/dotfiles/blob/master/bin/make-portproxy)
