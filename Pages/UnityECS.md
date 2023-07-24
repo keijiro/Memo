@@ -1,5 +1,27 @@
 # Unity ECS
 
+## Time 制御まとめ
+
+### 最大 delta time はどうやって決まるのか？
+
+- 基本的には [World] の `MaximumDeltaTime` プロパティによって決まる。
+- ただし Default World の `deltaTime` は [UpdateWorldTimeSystem] によって外部制御されている。
+- そのためプロジェクト設定の Maximum Allowed Timestep が間接的に反映されることになる。
+- 結論として `World.MaximumDeltaTime` か Maximum Allowed Timestep のいずれかの小さい方の値が反映されることになる。
+
+[World]:
+  https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.World.html
+[UpdateWorldTimeSystem]:
+  https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.UpdateWorldTimeSystem.html
+
+### Physics の time step はどうやって決まるのか？
+
+- Unity Physics は [FixedStepSimulationSystemGroup] で駆動する。
+- [FixedStepSimulationSystemGroup] の Timestep のデフォルト値は 1/60 であり、多くの場合これがそのまま用いられる。
+
+[FixedStepSimulationSystemGroup]:
+  https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.FixedStepSimulationSystemGroup.html
+
 ## Source generators
 
 Entities パッケージにおいて source generator は以下の機能を提供するために用いられる。
