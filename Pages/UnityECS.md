@@ -14,11 +14,6 @@
 [UpdateWorldTimeSystem]:
   https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.UpdateWorldTimeSystem.html
 
-## Unity Physics
-
-- カスタム処理を挟み込むためのフックや、内部情報にアクセスするための API が充実しているため、カスタマイズの幅が広いのは確か。ただ、API の使用方法が詳しく解説されているわけではなく、サンプルもそれほど充実しているわけでは無いため、実際にカスタマイズしようと思ったら、かなり内部構造に詳しくなる必要がある。そのため「カスタマイズしやすい」と言うのとは少し違うような気がする。「カスタマイズを意識した設計になっている」と言うのが現実的な表現になるか。
-- ステートレスであるのは、ゲーム用途では確実に便利なポイント。位置と速度さえ保存すればロールバックが簡単にできる。
-
 ### Physics の time step はどうやって決まるのか？
 
 - Unity Physics は [FixedStepSimulationSystemGroup] で駆動する。
@@ -26,6 +21,13 @@
 
 [FixedStepSimulationSystemGroup]:
   https://docs.unity3d.com/Packages/com.unity.entities@1.0/api/Unity.Entities.FixedStepSimulationSystemGroup.html
+
+## Unity Physics
+
+- カスタム処理を挟み込むためのフックや、内部情報にアクセスするための API が充実しているため、カスタマイズの幅が広いのは確か。ただ、API の使用方法が詳しく解説されているわけではなく、サンプルもそれほど充実しているわけでは無いため、実際にカスタマイズしようと思ったら、かなり内部構造に詳しくなる必要がある。そのため「カスタマイズしやすい」と言うのとは少し違うような気がする。「カスタマイズを意識した設計になっている」と言うのが現実的な表現になるか。
+- ステートレスであるのは、ゲーム用途では確実に便利なポイント。位置と速度さえ保存すればロールバックが簡単にできる。
+- 処理速度は PhysX と同等程度だが、１フレームに複数ステップが発生すると途端に遅くなる。PhysX では複数ステップを高速に処理するための最適化が施されている？
+- Havok Physics は確実に速い。 PhysX や Unity Physics の４〜５倍は速い印象。
 
 ## Source generators
 
