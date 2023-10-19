@@ -25,3 +25,21 @@ Unity Editor から各アセットファイルを読み出す際の速度は低�
 ## Linux 側に立てたサーバーを LAN 内でアクセス可能にする
 
 Linux 側のポートを LAN へ露出するために `netsh` コマンドを使って port proxy を作成する必要がある。これを行うためのシェルスクリプトを作成した [make-portproxy](https://github.com/keijiro/dotfiles/blob/master/bin/make-portproxy)
+
+## ドライブ増設
+
+２通りのアプローチがある
+
+### 仮想ドライブ
+
+VHDX 仮想ドライブイメージ内に ext4 パーティションを作成し WSL にマウントする。
+
+VHDX 仮想ドライブの作成までは Disk Management GUI 上で行うことができる。[こちらを参照](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/manage-virtual-hard-disks)。
+
+WSL へのマウントはコマンドラインから行う。[こちらを参照](https://learn.microsoft.com/en-us/windows/wsl/wsl2-mount-disk)
+
+### 物理ドライブ
+
+外部接続した物理ドライブに ext4 パーティションを作成し WSL にマウントする。
+
+（調査中）
