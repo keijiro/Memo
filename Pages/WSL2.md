@@ -36,10 +36,14 @@ VHDX 仮想ドライブイメージ内に ext4 パーティションを作成し
 
 VHDX 仮想ドライブの作成までは Disk Management GUI 上で行うことができる。[こちらを参照](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/manage-virtual-hard-disks)。
 
-WSL へのマウントはコマンドラインから行う。[こちらを参照](https://learn.microsoft.com/en-us/windows/wsl/wsl2-mount-disk)
+WSL へのマウントはコマンドラインから行う。[こちらを参照](https://learn.microsoft.com/en-us/windows/wsl/wsl2-mount-disk)。
 
 ### 物理ドライブ
 
 外部接続した物理ドライブに ext4 パーティションを作成し WSL にマウントする。
 
 （調査中）
+
+### どちらのアプローチを採るべきか
+
+速度的に大きな差は無いものと思われる。取り回しの容易さを考えると仮想ドライブの方が良さそうに思われるが、マウントの手順は案外に面倒で、当初考えていたほどに便利ではなかった。ドライブ全体を WSL に使用することが予め決まっているのならば、物理的に ext4 パーティションを作成した方が良いかもしれない。
