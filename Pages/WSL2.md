@@ -32,11 +32,23 @@ Linux 側のポートを LAN へ露出するために `netsh` コマンドを使
 
 ### 仮想ドライブ
 
-VHDX 仮想ドライブイメージ内に ext4 パーティションを作成し WSL にマウントする。
+VHDX 仮想ドライブイメージ内に ext4 パーティションを作成し WSL にマウントする、というアプローチ。
 
-VHDX 仮想ドライブの作成までは Disk Management GUI 上で行うことができる。[こちらを参照](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/manage-virtual-hard-disks)。
+VHDX 仮想ドライブの作成までは Disk Management GUI 上で行うことができる。[こちらを参照](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/manage-virtual-hard-disks)。ただし、こうして作成された VHDX は管理者権限でアクセスが制限されている。以降の作業を簡便化するにはユーザーアクセス権限を付与しておくのが良い。
 
-WSL へのマウントはコマンドラインから行う。[こちらを参照](https://learn.microsoft.com/en-us/windows/wsl/wsl2-mount-disk)。
+こうして作成した VHDX は `wsl` コマンドで普通にマウントできる。
+
+```
+wsl --mount --vhd D:\wsl2-ext.vhdx --bare
+```
+
+パーティションの構築には `gparted` 等を使用するのが無難。パーティションテーブルには MSDOS を使用するので良いらしい（根拠は不明）。
+
+パーティション構築後は WSL 内で普通にマウントすることができる。
+
+```
+sudo mount /dev/sdd1 mount-point
+```
 
 ### 物理ドライブ
 
