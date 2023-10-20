@@ -25,6 +25,7 @@
 - [Misc Tools](Pages/MiscTools.md)
 - [Remote Desktop](Pages/RemoteDesktop.md)
 - [WSL2](Pages/WSL2.md)
+- [Audio Libraries](Pages/AudioLibraries.md)
 
 ### Hardware
 
