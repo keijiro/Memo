@@ -50,9 +50,25 @@ sudo mount /dev/sdd1 mount-point
 
 ### 物理ドライブ
 
-外部接続した物理ドライブに ext4 パーティションを作成し WSL にマウントする。
+外部接続した物理ドライブに ext4 パーティションを作成し WSL にマウントする、というアプローチ。
 
-（調査中）
+まず、PowerShell 上でディスクパス（`\\.\PHYSICALDRIVE*` という形式で表されるもの）を特定する。
+
+```powershell
+GET-CimInstance -query "SELECT * from Win32_DiskDrive"
+```
+
+このディスクパスを使ってドライブを WSL へマウントする。
+
+```powershell
+wsl --mount <DiskPath> --bare
+```
+
+こうしてマウントしたドライブは WSL 上では `/dev/sd*` として見えるようになる。あとは `gparted` 等を使用してファイルシステムを構築すれば良い。パーティション構築後は普通に `mount` コマンドでマウントできる。
+
+```
+sudo mount /dev/sdd1 mount-point
+```
 
 ### どちらのアプローチを採るべきか
 
