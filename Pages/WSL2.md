@@ -38,13 +38,13 @@ VHDX 仮想ドライブの作成までは Disk Management GUI 上で行うこと
 
 こうして作成した VHDX は `wsl` コマンドでマウントできる。これ以降、WSL 側では物理ドライブとしてこれが見えるようになる。
 
-```
+```powershell
 wsl --mount --vhd D:\wsl2-ext.vhdx --bare
 ```
 
 パーティションの構築には `gparted` 等を使用するのが無難。パーティションテーブルは msdos あるいは gpt を、ファイルシステムには ext4 を使用する。パーティション構築後は普通に `mount` コマンドでマウントできる。
 
-```
+```sh
 sudo mount /dev/sdd1 mount-point
 ```
 
@@ -66,7 +66,7 @@ wsl --mount \\.\PHYSICALDRIVE2 --bare
 
 こうしてマウントしたドライブは WSL 上で `/dev/sd*` として見えるようになる。あとは `gparted` 等を使用してファイルシステムを構築すれば良い。パーティション構築後は普通に `mount` コマンドでマウントできる。
 
-```
+```sh
 sudo mount /dev/sdd1 mount-point
 ```
 
