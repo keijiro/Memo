@@ -92,7 +92,7 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 ### WSL2
 
-基本的には Linux 向けのセットアップ手順に従えばインストールできる。
+基本的には Linux 向けのセットアップ手順に従えばインストールできる。ただし、NVIDIA GPU サポートを有効化するために、Windows 側のドライバを更新しておく必要がある。
 
 ## プロンプトエンジニアリング
 
