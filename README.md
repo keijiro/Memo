@@ -56,6 +56,7 @@
 - [NeRF](Pages/NeRF.md)
 - [Stable Diffusion](Pages/StableDiffusion.md)
 - [Wi-Fi](Pages/WiFi.md)
+- [macOS](Pages/MacOS.md)
 
 ### Project Logs
 
