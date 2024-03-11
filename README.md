@@ -46,6 +46,7 @@
 - [Motion Capture](Pages/MotionCapture.md)
 - [Camera Tracking](Pages/CameraTracking.md)
 - [Backup Strategy](Pages/BackupStrategy.md)
+- [YouTube](Pages/YouTube.md)
 - [YouTube Live](Pages/YouTubeLive.md)
 - [Video Production](Pages/VideoProduction.md)
 - [General Lifehack](Pages/Lifehack.md)
