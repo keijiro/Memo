@@ -68,3 +68,4 @@
 ### Travel Logs
 
 - [台北 2022](Pages/Taipei2022.md)
+- [GDC 2024](Pages/GDC2024.md)
