@@ -1,3 +1,16 @@
+# macOS Setup
+
+初期セットアップとして行なっていること
+
+- ホスト名設定
+- [dotfiles](https://github.com/keijiro/dotfiles)
+- [brew](https://brew.sh)
+- [Lilex](https://github.com/mishamyrt/Lilex)
+- [kitty](https://sw.kovidgoyal.net/kitty/) (via brew)
+- [kitty.conf](https://gist.github.com/keijiro/a5d061397041c7bc754bae1e55bf2098)
+- [neovim](https://neovim.io) (via brew)
+- [nvim-config](https://github.com/keijiro/nvim-config)
+
 # macOS Oddities
 
 macOS に関する奇妙なこと。
