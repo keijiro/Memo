@@ -10,6 +10,8 @@
 - [kitty.conf](https://gist.github.com/keijiro/a5d061397041c7bc754bae1e55bf2098)
 - [neovim](https://neovim.io) (via brew)
 - [nvim-config](https://github.com/keijiro/nvim-config)
+- [ripgrep](https://github.com/BurntSushi/ripgrep) (via brew)
+- [git-lfs](https://git-lfs.com) (via brew)
 
 # macOS Oddities
 
