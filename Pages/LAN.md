@@ -18,7 +18,7 @@ $ cat file.bin | nc -w 1 -l 9999
 $ nc -q 1 192.168.0.x 9999 > file.bin
 ```
 
-### WSl から macOS へ転送
+### WSL から macOS へ転送
 
 ```
 # on macOS
