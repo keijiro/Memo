@@ -17,3 +17,13 @@ YouTube Shorts は、自動的にクロップされる、UI がオーバーレ�
 ### サムネイル
 
 今の所、別途にサムネイル画像をアップロードする方法は存在せず、またデスクトップの YouTube Studio からサムネイルを変更することもできない。任意フレームをサムネイルとして選択するにはモバイル YouTube アプリからアップロードを行う必要がある（何という仕様か！）
+
+### エンコード設定
+
+上記の事情によりモバイル YouTube アプリを使用する必要があるが、Android 版 YouTube アプリでは、動画にタイムコードトラックが存在すると読み込めないという制限が存在する。この問題を回避するには ffmpeg 等を使ってタイムコードを削除する必要がある。
+
+```
+ffmpeg -i temp.mp4 -c:a copy -c:v copy -write_tmcd 0 clean.mp4
+```
+
+参考： https://www.reddit.com/r/NewTubers/comments/viab8l/comment/k98vo6q/
