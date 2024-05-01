@@ -6,7 +6,8 @@
 - [brew](https://brew.sh)
 - [dotfiles](https://github.com/keijiro/dotfiles)
 - [Lilex Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Lilex)
-- [nvim-config](https://github.com/keijiro/nvim-config)
+
+コマンドラインツールの類の初期設定は全て `dotfiles/setup` 内にまとめた。
 
 # macOS Oddities
 
