@@ -3,15 +3,11 @@
 初期セットアップとして行なっていること
 
 - ホスト名設定
-- [dotfiles](https://github.com/keijiro/dotfiles)
 - [brew](https://brew.sh)
+- [dotfiles](https://github.com/keijiro/dotfiles)
 - [Lilex Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Lilex)
-- [kitty](https://sw.kovidgoyal.net/kitty/) (via brew)
 - [kitty.conf](https://gist.github.com/keijiro/a5d061397041c7bc754bae1e55bf2098)
-- [neovim](https://neovim.io) (via brew)
 - [nvim-config](https://github.com/keijiro/nvim-config)
-- [ripgrep](https://github.com/BurntSushi/ripgrep) (via brew)
-- [git-lfs](https://git-lfs.com) (via brew)
 
 # macOS Oddities
 
