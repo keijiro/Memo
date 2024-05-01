@@ -6,7 +6,6 @@
 - [brew](https://brew.sh)
 - [dotfiles](https://github.com/keijiro/dotfiles)
 - [Lilex Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Lilex)
-- [kitty.conf](https://gist.github.com/keijiro/a5d061397041c7bc754bae1e55bf2098)
 - [nvim-config](https://github.com/keijiro/nvim-config)
 
 # macOS Oddities
