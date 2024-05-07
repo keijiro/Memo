@@ -59,6 +59,7 @@
 - [Wi-Fi](Pages/WiFi.md)
 - [macOS](Pages/MacOS.md)
 - [LAN](Pages/LAN.md)
+- [CLI](Pages/CLI.md)
 
 ### Project Logs
 
