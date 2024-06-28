@@ -27,6 +27,7 @@
 - [Remote Desktop](Pages/RemoteDesktop.md)
 - [WSL2](Pages/WSL2.md)
 - [Audio Libraries](Pages/AudioLibraries.md)
+- [AI Translation](Pages/AITranslation.md)
 
 ### Hardware
 
