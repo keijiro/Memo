@@ -63,6 +63,7 @@
 - [LAN](Pages/LAN.md)
 - [CLI](Pages/CLI.md)
 - [Custom Presentation System](Pages/CustomPresentationSystem.md)
+- [Financial Tips](Pages/FinancialTips.md)
 
 ### Project Logs
 
