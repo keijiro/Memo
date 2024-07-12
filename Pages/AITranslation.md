@@ -2,6 +2,14 @@
 
 機械翻訳および speech-to-speech モデルを使った吹き替え翻訳の試みについて記す。なお、現時点では日本語→英語の翻訳のみ模索している。
 
+## ElevenLabs
+
+https://elevenlabs.io
+
+### 作例
+
+https://github.com/user-attachments/assets/f9b484e3-cec8-462a-938a-27aaef453354
+
 ## Rask AI
 
 https://www.rask.ai/
