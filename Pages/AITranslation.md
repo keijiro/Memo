@@ -6,9 +6,17 @@
 
 https://elevenlabs.io
 
+主に Text-To-Speech を提供するサービス。ボイスクローニングの機能を備えている。
+
 ### 作例
 
 https://github.com/user-attachments/assets/f9b484e3-cec8-462a-938a-27aaef453354
+
+### 長所
+
+- 音質が非常に良い。
+- 処理速度が非常に速い。
+- 価格が安い。
 
 ## Rask AI
 
