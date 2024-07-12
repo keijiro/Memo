@@ -13,6 +13,12 @@
 
 結論として、技術的に無理のある speech-to-speech を使うよりも、技術的に安定しつつある text-to-speech を選択し、「手間はかかるけど試行錯誤や失敗の可能性は低い」と言う作業工程を完成させる方が望ましいのではないかと考えるに至った。
 
+## 資料
+
+https://www.youtube.com/watch?v=vhArHsfsLAQ
+
+bycloud によるボイスクローニングまとめ。ちょっと時間が経っているが、それでも参考になる部分は多い。
+
 ## ElevenLabs
 
 https://elevenlabs.io
