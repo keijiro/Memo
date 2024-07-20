@@ -15,3 +15,9 @@ https://github.com/keijiro/PromptLink
 NDI を使った台本表示システム。台本テキストをオフスクリーンレンダリングしつつ NDI で iPhone に送信する。
 
 正式なパッケージ化は行っていない。U/Day Tokyo ではプレゼンテーション用プロジェクトにコピペで組み込む形にした。
+
+## 実際のプロジェクト
+
+https://github.com/keijiro/UITK2024Deck
+
+2024 年の U/Day や Unite で使用した UI Toolkit 講演用のプロジェクト。動画ファイルはサイズが非常に大きいためリポジトリからは除外してある。
