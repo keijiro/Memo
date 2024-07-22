@@ -58,5 +58,6 @@ ESTA (US) や ETIAS (EU) のような電子申請は早めに済ませておく�
 
 各種のプラグに対応したマルチプラグ変換器が存在するが、据え付けがフニャフニャしていて抜け落ちやすい。贅沢を言えば１対１の変換プラグの方が望ましい。
 
-最近は多くの電子機器が USB-C での給電に対応しているので、「[USB トラベルアダプター](https://nordace.com/ja/product/nordace-universal-travel-adapter-with-usb-charging-ports-type-c-usb/)」のような各種のプラグに対応した USB アダプタを持っていけばそれで全て済んでしまう場合もある。
+最近は多くの電子機器が USB-C での給電に対応しているので「[USB トラベルアダプター](https://nordace.com/ja/product/nordace-universal-travel-adapter-with-usb-charging-ports-type-c-usb/)」のような各種のプラグに対応した USB アダプタを持っていけばそれで全て済んでしまう場合もある。
 
+ホテルの電源コンセントは必ずしも使いやすい位置についているとは限らず、電源タップがあると助かる場合も多い。Anker の [Charging Station](https://www.ankerjapan.com/products/a9129) のように USB アダプタと電源タップが一体化したものがあればなお良いだろう。
