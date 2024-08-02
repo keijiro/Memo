@@ -29,6 +29,7 @@
 - [WSL2](Pages/WSL2.md)
 - [Audio Libraries](Pages/AudioLibraries.md)
 - [AI Translation](Pages/AITranslation.md)
+- [OS Installation](Pages/OSInstallation.md)
 
 ### Hardware
 
