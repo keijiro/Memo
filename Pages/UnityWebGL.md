@@ -1,8 +1,16 @@
-Unity Web についての技術的なメモを英文で書いています。プルーフリードしてください。
-
 # Unity WebGL Player
 
 Random notes about Unity Web (WebGL Player)
+
+## WebGL builds
+
+### Hosting on GitHub Pages
+
+- It needs to enable the "Decompression Fallback" switch in the Project Settings to support hosting on GitHub Pages.
+
+### Memo
+
+- The build size can be drastically reduced by changing the Code Optimization option to “Disk Size with LTO,” but this requires a very long build time.
 
 ## WebGPU
 
