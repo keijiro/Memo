@@ -29,3 +29,4 @@ It requires manually modifing `ProjectSettings.asset` to enable the feature.
 - It doesn't support HDRP at the moment.
 - It has a color banding issue, which is especially noticeable with bloom effects.
   - It seems to be a gamma/linear conversion issue.
+- WebGPU is only enabled in [secure contexts](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#when_is_a_context_considered_secure)
