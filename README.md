@@ -10,6 +10,7 @@
 - [Unity Android](Pages/UnityAndroid.md)
 - [Unity UI Toolkit](Pages/UnityUIToolkit.md)
 - [Unity WebGL](Pages/UnityWebGL.md)
+- [Unity VFX Graph](Pages/UnityVFXGraph.md)
 - [360-Degree Panorama](Pages/360DegreePanorama.md)
 - [C# Interop](Pages/CSharpInterop.md)
 - [Rust](Pages/RustLanguage.md)
