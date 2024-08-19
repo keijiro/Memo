@@ -1,16 +1,18 @@
-# Unity WebGL Player
+# Unity Web Player
 
-Random notes about Unity Web (WebGL Player)
+Random notes about Unity Web (WebGL/WebGPU)
 
-## WebGL builds
+## Web Builds
 
 ### Hosting on GitHub Pages
 
-- It needs to enable the "Decompression Fallback" switch in the Project Settings to support hosting on GitHub Pages.
+- It needs to enable the "Decompression Fallback" switch in the Project Settings
+  to support hosting on GitHub Pages.
 
-### Memo
+### Build Size Optimization
 
-- The build size can be drastically reduced by changing the Code Optimization option to “Disk Size with LTO,” but this requires a very long build time.
+- The build size can be drastically reduced by changing the Code Optimization
+  option to “Disk Size with LTO,” but this requires a very long build time.
 
 ## WebGPU
 
@@ -26,7 +28,10 @@ It requires manually modifing `ProjectSettings.asset` to enable the feature.
 ### Memo
 
 - Initially, it didn’t support VFX Graph, but support was added at some point.
-- It doesn't support HDRP at the moment.
+- It doesn't support HDRP at the moment. [[HDRP]]
 - It has a color banding issue, which is especially noticeable with bloom effects.
-  - It seems to be a gamma/linear conversion issue.
-- WebGPU is only enabled in [secure contexts](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#when_is_a_context_considered_secure)
+  - It has been already reported and fixed in the dev branch.
+- WebGPU is only enabled in secure contexts. [[HTTPS]]
+
+[HDRP]: https://discussions.unity.com/t/early-access-to-the-new-webgpu-backend-in-unity-2023-3/933493/202
+[HTTPS]: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#when_is_a_context_considered_secure
