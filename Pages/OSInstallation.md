@@ -2,6 +2,17 @@
 
 My clean installation steps for several operating systems.
 
+## macOS
+
+- Change the host name.
+- Install brew.
+  - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Sign into my GitHub account and [generate/register my SSH key](https://github.com/settings/keys).
+  - `ssh-keygen -t rsa -b 4096 -C "keijiro@gmail.com"`
+- Install [Lilex Nerd Font](https://www.nerdfonts.com/font-downloads).
+- Clone [dotfiles](https://github.com/keijiro/dotfiles) and run `setup`.
+- Install [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe).
+
 ## Windows 11
 
 - Remove unused stock apps like OneDrive.
