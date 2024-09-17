@@ -1,13 +1,6 @@
 # macOS Setup
 
-初期セットアップとして行なっていること
-
-- ホスト名設定
-- [brew](https://brew.sh)
-- [dotfiles](https://github.com/keijiro/dotfiles)
-- [Lilex Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Lilex)
-
-コマンドラインツールの類の初期設定は全て `dotfiles/setup` 内にまとめた。
+[OSInstallation](OSInstallation.md)
 
 # macOS Oddities
 
