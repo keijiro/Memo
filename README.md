@@ -45,6 +45,7 @@
 - [Blackmagic Design Products](Pages/Blackmagic.md)
 - [Meta Quest Pro](Pages/QuestPro.md)
 - [Synthesizers](Pages/Synthesizers.md)
+- [Wishlist](Pages/Wishlist.md)
 
 ### Knowledge
 
