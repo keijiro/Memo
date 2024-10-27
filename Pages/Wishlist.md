@@ -34,3 +34,5 @@ https://edelkrone.com/products/standplus
 - 案２ - レールを使用する、比較的小型で安価なスライダーを導入してみる。[Toprig のこの辺り](https://www.amazon.co.jp/dp/B0CKYN3VGN)とか。
 
 今まで触れたことのない分野なのでどうすべきか迷う。まずは比較的安価な電動ドリーから試してみるべきか？
+
+TODO - いろいろ動画をチェックしてみる。
