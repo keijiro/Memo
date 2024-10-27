@@ -25,3 +25,12 @@ https://edelkrone.com/products/standplus
 欠点は、価格が高いことと、安定性に欠けること。
 
 もし購入するなら公式サイトからの個人輸入が良さげ。送料はかからないらしい。
+
+### Motorized Camera Sliders
+
+電動スライダーの導入を検討している。
+
+- 案１ - レールを使用しない、いわゆる電動ドリーの類を導入してみる。[Neewer のこの辺り](https://neewer.com/collections/sliders/products/video-camera-supports-66600072)とか。
+- 案２ - レールを使用する、比較的小型で安価なスライダーを導入してみる。[Toprig のこの辺り](https://www.amazon.co.jp/dp/B0CKYN3VGN)とか。
+
+今まで触れたことのない分野なのでどうすべきか迷う。まずは比較的安価な電動ドリーから試してみるべきか？
