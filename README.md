@@ -71,6 +71,7 @@
 - [Financial Tips](Pages/FinancialTips.md)
 - [ナレーション収録](Pages/VoiceOverRecording.md)
 - [Finger Drumming](Pages/FingerDrumming.md)
+- [モバイル通信プラン](Pages/MobileDataPlan.md)
 
 ### Project Logs
 
