@@ -5,8 +5,8 @@
 
 ## NoiseBall6 - Frame Rate (3,276,000 triangles)
 
-- M2 Max: 205 fps
-- M4 Max: 155 fps
+- M2 Max: 155 fps
+- M4 Max: 205 fps
 
 ## NoiseBall6 - Web Build Time
 
