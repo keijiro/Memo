@@ -38,7 +38,7 @@
 - M2 Max: 0.8 sec
 - M4 Max: 0.5 sec
 
-# M2 Max MacBook Pro (2022) を導入すべきかどうか問題
+# M2 Max MacBook Pro (2023) を導入すべきかどうか問題
 
 ## 前提
 
