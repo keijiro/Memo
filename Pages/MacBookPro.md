@@ -1,4 +1,7 @@
-# M2 Max MacBook Pro (2022) vs M4 Max MacBook Pro (2024)
+# M2 Max MacBook Pro (2023) vs M4 Max MacBook Pro (2024)
+
+- M2 Max MacBook Pro, 16-inch 2023, 64GB RAM, 12 CPU Cores, 38 GPU Cores
+- M4 Max MacBook Pro, 16-inch 2024, 64GB RAM, 16 CPU Cores, 40 GPU Cores
 
 ## NoiseBall6 - Frame Rate (3,276,000 triangles)
 
