@@ -18,7 +18,7 @@
 - M2 Max: 1 min 35 sec
 - M4 Max: 1 min 27 sec
 
-## Fantasy Kingdom - Frame Rate
+## Fantasy Kingdom - Frame Rate (FHD 1920x1080)
 
 - M2 Max: 240 fps
 - M4 Max: 270 fps
