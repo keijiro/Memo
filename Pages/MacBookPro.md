@@ -25,8 +25,8 @@
 
 ## DaVinci Resolve 4K H265 Rendering
 
-- M2 Max: 6 min 45 sec
-- M4 Max: 8 min 50 sec
+- M2 Max: 8 min 50 sec
+- M4 Max: 6 min 45 sec
 
 ## Stable Diffusion 1.4 (9 steps)
 
