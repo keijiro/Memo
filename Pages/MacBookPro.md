@@ -15,8 +15,8 @@
 
 ## Fantasy Kingdom - Reimport All
 
-- M2 Max: 1 min 27 sec
-- M4 Max: 1 min 35 sec
+- M2 Max: 1 min 35 sec
+- M4 Max: 1 min 27 sec
 
 ## Fantasy Kingdom - Frame Rate
 
