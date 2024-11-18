@@ -1,8 +1,39 @@
-# M1 Max MacBook Pro (2021)
+# M2 Max MacBook Pro (2022) vs M4 Max MacBook Pro (2024)
 
-## ProMotion
+## NoiseBall6 - Frame Rate (3,276,000 triangles)
 
-ProMotion を有効にしている場合、 Unity Editor および Standalone Player は 120 fps ベースで動く。 60 fps で動かしたい場合は Target Frame Rate の指定を行うか、 ProMotion を無効にする必要がある。
+- M2 Max: 205 fps
+- M4 Max: 155 fps
+
+## NoiseBall6 - Web Build Time
+
+- M2 Max: 3 min 23 sec
+- M4 Max: 2 min 53 sec
+
+## Fantasy Kingdom - Reimport All
+
+- M2 Max: 1 min 27 sec
+- M4 Max: 1 min 35 sec
+
+## Fantasy Kingdom - Frame Rate
+
+- M2 Max: 240 fps
+- M4 Max: 270 fps
+
+## DaVinci Resolve 4K H265 Rendering
+
+- M2 Max: 6 min 45 sec
+- M4 Max: 8 min 50 sec
+
+## Stable Diffusion 1.4 (9 steps)
+
+- M2 Max: 2.5 sec
+- M4 Max: 1.5 sec
+
+## sd-turbo (2 steps)
+
+- M2 Max: 0.8 sec
+- M4 Max: 0.5 sec
 
 # M2 Max MacBook Pro (2022) を導入すべきかどうか問題
 
@@ -37,3 +68,9 @@ https://www.youtube.com/watch?v=wakmaa5_GQk&t=152s
 - 現在使用している M1 Max 16" の最高スペックで 7.5 秒。
 
 Hugging Face とウチで 0.8 秒も違いがあるのが謎だが、恐らく Hugging Face の報告は 14" で計測したものではないかと思われる。それならば 10% 近くの差があることに納得がいく。もし M2 Max でも同様に 10% 程度の違いが出るとすれば、 M2 Max 16" では 5.9 秒程度にまで速くなることが期待できるか？
+
+# M1 Max MacBook Pro (2021)
+
+## ProMotion
+
+ProMotion を有効にしている場合、 Unity Editor および Standalone Player は 120 fps ベースで動く。 60 fps で動かしたい場合は Target Frame Rate の指定を行うか、 ProMotion を無効にする必要がある。
