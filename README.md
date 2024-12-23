@@ -77,6 +77,7 @@
 
 - [BibcamStage (Channel 22)](Pages/BibcamStage.md)
 - [Rcam2x](Pages/Rcam2x.md)
+- [Rcam3](Pages/Rcam3.md)
 - [Dcam](Pages/Dcam.md)
 
 ### Travel Logs
