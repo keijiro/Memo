@@ -18,6 +18,11 @@
 
 基本的な音声処理（EQ やコンプレッサ等）は ATEM Mini の内臓機能で行う。最後に OBS 内でノイズキャンセリングのみ適用する。
 
+<img src="https://github.com/user-attachments/assets/2f5bba7d-1e09-463c-b215-94cb075f564a" width="557"></img>
+
+![ブロック図](https://github.com/user-attachments/assets/afbfa8ab-d6f4-465d-ae5b-207765ce039a)
+
+
 ## VDO Ninja の使用
 
 複数人でのリモート配信を行う場合は VDO Ninja を使用することになるだろう。セットアップが複雑化するという欠点はあるものの、構成の柔軟性を考慮に入れると、やはりこれが最適な選択肢となる。
