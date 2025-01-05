@@ -32,4 +32,5 @@ unity1week で開発したプロジェクト。久しぶりにゲームとして
   - WebGPU も使いたかったが、iPhone で気軽に遊べる状態にしたかったので、我慢して WebGL ベースとした。
 - Input System
   - この程度のシステムだと使用感はさほど変わらないが、ほんのちょっと便利なところがある。
+- 以前なら Coroutine で組んでいた部分は、ほぼ Awaitable になった。
 - WebGL 対応のため残念ながら VFX Graph 使用は断念。久しぶりに Shuriken を使用した。
