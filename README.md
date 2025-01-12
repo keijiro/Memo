@@ -72,6 +72,7 @@
 - [ナレーション収録](Pages/VoiceOverRecording.md)
 - [Finger Drumming](Pages/FingerDrumming.md)
 - [モバイル通信プラン](Pages/MobileDataPlan.md)
+- [3D Gaussian Splatting](Pages/3DGaussianSplatting.md)
 
 ### Project Logs
 
