@@ -12,6 +12,8 @@ My clean installation steps for several operating systems.
 - Install [Lilex Nerd Font](https://www.nerdfonts.com/font-downloads).
 - Clone [dotfiles](https://github.com/keijiro/dotfiles) and run `setup`.
 - Install [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe).
+- Optional: Install "Ungoogled" Chromium.
+  - `brew install eloston-chromium`
 
 ## Windows 11
 
