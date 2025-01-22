@@ -55,3 +55,13 @@ https://github.com/stegu/webgl-noise
 https://github.com/stegu/psrdnoise
 
 この psrdnoise のコードは一部 webgl-noise にも取り込まれているが、psrdnoise の方は論文やデモ、チュートリアルが充実しており、実装の背景を知るのに役立つ。
+
+### webgl-noise の欠点
+
+webgl-noise は元々 SIMD を意識した実装内容になっているが、現代の GPU は SIMD を指向していないため、あまり意味の無い部分もある。
+
+`step` を使用している箇所があるが、これは GPU によってペナルティになる場合がある。
+
+`normalize` や `sin`/`cos` を避けるためにテイラー展開された `rsqrt` を使用しているが、これは不要な最適化かもしれない。
+
+Unity に移植する際にはこの辺りを単純化した。
