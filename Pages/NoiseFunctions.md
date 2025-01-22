@@ -30,4 +30,28 @@ Gradient Noise では勾配ベクトルの方向を決めるために乱数生�
 
 webgl-noise の実装は非常に巧妙でスマートである。選定の背景について[ちゃんと解説が用意されている](https://github.com/stegu/psrdnoise/tree/main/article)のも有り難い。興味深い事実として、この実装は[定数の更新が何度かされている](https://github.com/stegu/webgl-noise/commit/c008e21d3df2ab0b45aaa0c86df4a817ad6b95d4)ことが挙げられる。初期の段階で webgl-noise から派生したコードは、この変更が反映されていなかったりする。
 
+ハッシュ関数を乱数生成に用いる方法も考えられるが、上記の２方式に速度で勝つことは非常に難しい。多くの場合は webgl-noise のアプローチを引用するのが望ましいのではないか。
 
+## Unity の実装
+
+まず、標準的な関数として、 `Mathf` に `PerlinNoise` と `PerlinNoise1D` が用意されている。非常に基本的な実装であり、これらを積極的に使用する理由はあまり無い。
+
+`Unity.Mathematics` には `noise` クラスが実装されている。この中には webgl-noise から移植されたコードが一通り揃っている。シェーダーからの移植となるが、オリジナルの実装は SIMD との親和性を意識されたものであるため、Burst に最適化するという文脈では意味のあるものになっている。もちろん、Burst を使用しないとかなり重い。ちなみに、最近の webgl-noise における更新はあまり反映されていない。
+
+## webgl-noise
+
+https://github.com/ashima/webgl-noise
+
+Classic Noise （Perlin Noise の派生形で、勾配ベクトルのバリエーションを増やしたもの）と Simplex Noise の非常に効率の良い実装。元の意図は GPU に向けたノイズ関数の最適化だが、単純にノイズ関数の実装として非常に効率が良いことと、わかりやすい Simplex Noise の実装が希少であったことから、CPU/GPU を問わず多種多様な場面で流用されている。
+
+ただし、このオリジナル実装のリポジトリの管理者である Ashima Arts 社は既に倒産しており、引用元として使用すべきかどうかは怪しい。作者によって更新されているものの、いつまで管理されるかは分からない。
+
+webgl-noise の実質的な作者である stegu 氏が現在管理しているリポジトリが下記にある。
+
+https://github.com/stegu/webgl-noise
+
+同氏はのちに psrdnoise を開発している。Simplex Noise に勾配ベクトルの回転機能を加えたものになる。
+
+https://github.com/stegu/psrdnoise
+
+この psrdnoise のコードは一部 webgl-noise にも取り込まれているが、psrdnoise の方は論文やデモ、チュートリアルが充実しており、実装の背景を知るのに役立つ。
