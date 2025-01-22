@@ -89,3 +89,7 @@ Brownian Motion コンポーネントで `Unity.Mathematics` のノイズ関数�
 ### [ProceduralMotionTrack](https://github.com/keijiro/ProceduralMotionTrack)
 
 ProceduralMotion と状況はほぼ同じ。
+
+### [PerlinNoise](https://github.com/keijiro/PerlinNoise)
+
+大昔に組んだもので今は利用価値が無い。
