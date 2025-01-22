@@ -65,3 +65,27 @@ webgl-noise は元々 SIMD を意識した実装内容になっているが、�
 `normalize` や `sin`/`cos` を避けるためにテイラー展開された `rsqrt` を使用しているが、これは不要な最適化かもしれない。
 
 Unity に移植する際にはこの辺りを単純化した。
+
+## 自作ライブラリの現状
+
+まばらに実装したため、パッケージによって使用しているものが異なり一貫性が無い。
+
+### [NoiseShader](https://github.com/keijiro/NoiseShader)
+
+`webgl-noise` の比較的シンプルな移植になる。ただし sin/cos や normalize 等、使用に問題がないと思われる関数を積極的に使用する形に直しつつ、HLSL 的に平易な書き方になるよう調整を行なった。
+
+できればサンプルを URP で書き直したい。また、1D noise を追加したい。
+
+### [KlakMath](https://github.com/keijiro/KlakMath)
+
+自作のシンプルな 1D Gradient Noise 実装を持っている。
+
+### [ProceduralMotion](https://github.com/keijiro/ProceduralMotion)
+
+Brownian Motion コンポーネントで `Unity.Mathematics` のノイズ関数を使用している。
+
+これは 1D Gradient Noise に変更すべきかもしれない。ノイズフィールドのスライスを使用する欠点が現れてしまっている気がする。
+
+### [ProceduralMotionTrack](https://github.com/keijiro/ProceduralMotionTrack)
+
+ProceduralMotion と状況はほぼ同じ。
