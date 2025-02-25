@@ -81,6 +81,7 @@
 - [BibcamStage (Channel 22)](Pages/BibcamStage.md)
 - [Rcam2x](Pages/Rcam2x.md)
 - [Rcam3](Pages/Rcam3.md)
+- [Rcam4](Pages/Rcam4.md)
 - [Dcam](Pages/Dcam.md)
 - [SquareWheeler](Pages/SquareWheeler.md)
 
