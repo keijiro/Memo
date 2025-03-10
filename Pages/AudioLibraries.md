@@ -35,3 +35,9 @@ libsoundio は入出力に適切なチャンネルレイアウトが存在する
 Unity プラグイン用の fork では、この問題に対するワークアラウンドを施してある。下記 commit を参照のこと。
 
 https://github.com/keijiro/libsoundio/commit/db72d17218029eb2aba59f392f89a3a134ae1b4c
+
+## 移行候補
+
+https://github.com/mackron/miniaudio
+
+比較的新参のポータブルなオーディオライブラリ。単一ヘッダーファイルで提供するというかなり過激なスタイルだが、活発に開発が続けられており良さげに見える。
