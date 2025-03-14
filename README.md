@@ -16,7 +16,6 @@
 - [Rust](Pages/RustLanguage.md)
 - [Unity Multi Display](Pages/UnityMultiDisplay.md)
 - [Unity Async Programming](Pages/UnityAsync.md)
-- [Unity Bug Reporting](Pages/UnityBugReporting.md)
 
 ### Software
 
@@ -34,6 +33,7 @@
 - [Audio Libraries](Pages/AudioLibraries.md)
 - [AI Translation](Pages/AITranslation.md)
 - [OS Installation](Pages/OSInstallation.md)
+- [ChatGPT](Pages/ChatGPT.md)
 
 ### Hardware
 
