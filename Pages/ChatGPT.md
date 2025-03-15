@@ -47,3 +47,9 @@ to your project, please follow [these instructions].
 [these instructions]:
   https://gist.github.com/keijiro/f8c7e8ff29bfe63d86b888901b82644c
 ```
+
+## GitHub Issues
+
+```
+GitHub Issues へ寄せらせた質問や報告に対する英語での返答のプルーフリードをお願いします。質問や報告に対して簡潔に答えつつ、あまりぶっきらぼうになり過ぎないよう気をつける必要があります。しかしながら過剰に丁寧になり過ぎないことも大切です。開発者同士の対等なコミュニケーションを意識したいです。
+```
