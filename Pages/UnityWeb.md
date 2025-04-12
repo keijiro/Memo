@@ -1,37 +1,32 @@
 # Unity Web Player
 
-Random notes about Unity Web (WebGL/WebGPU)
+There are already several presentations covering this feature (including mine!),
+so this page focuses on minor tips that are not commonly mentioned.
 
-## Web Builds
+## Local Testing
 
-### Hosting on GitHub Pages
+You can't simply open `index.html` directly in your browser to test a build,
+as it requires an HTTP server to serve the content. A convenient way to test
+locally is by using Python's built-in HTTP server:
 
-- It needs to enable the "Decompression Fallback" switch in the Project Settings
-  to support hosting on GitHub Pages.
+```
+$ python3 -m http.server 8080
+```
 
-### Build Size Optimization
+However, this method does not support testing WebGPU builds, as they require 
+a secure context (i.e., HTTPS).
 
-- The build size can be drastically reduced by changing the Code Optimization
-  option to “Disk Size with LTO,” but this requires a very long build time.
+## Mobile Browsers
+
+You can easily detect whether a build is running on a desktop or mobile browser 
+using `Application.isMobilePlatform`.
+
+https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-isMobilePlatform.html
 
 ## WebGPU
 
-https://discussions.unity.com/t/early-access-to-the-new-webgpu-backend-in-unity-2023-3/933493
+- HDRP is not supported. [[HDRP]]
+- WebGPU is only available in secure contexts. [[HTTPS]]
 
-It requires manually modifing `ProjectSettings.asset` to enable the feature.
-
-### Compatibility
-
-- It runs on Chrome/Edge. It also runs on Chrome on mobiles.
-- It doesn't run on Safari/Firefox. There is no way to run it on iPhone.
-
-### Memo
-
-- Initially, it didn’t support VFX Graph, but support was added at some point.
-- It doesn't support HDRP at the moment. [[HDRP]]
-- It has a color banding issue, which is especially noticeable with bloom effects.
-  - It has been already reported and fixed in the dev branch.
-- WebGPU is only enabled in secure contexts. [[HTTPS]]
-
-[HDRP]: https://discussions.unity.com/t/early-access-to-the-new-webgpu-backend-in-unity-2023-3/933493/202
+[HDRP]: https://discussions.unity.com/t/early-access-to-the-new-webgpu-backend-in-unity-2023-3/933493/202  
 [HTTPS]: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#when_is_a_context_considered_secure
