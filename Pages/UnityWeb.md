@@ -29,8 +29,12 @@ The `VideoPlayer` component does not support video assets in Web builds. To
 play videos, place the files in the `StreamingAssets` folder and access them 
 via a URL at runtime.
 
-Unity Play supports Web projects up to 500 MB in size, making it a good choice 
-if your project includes large video files.
+Unity Play supports Web projects up to 500 MB in size[^1], making it a good
+choice if your project includes large video files.
+
+[^1]: This is mentioned in the WebGL Publisher package documentation. The actual 
+quota is not clearly specified--I was able to upload a project over 500 MB
+without any issues.
 
 ## WebGPU
 
