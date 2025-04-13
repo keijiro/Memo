@@ -23,6 +23,15 @@ using `Application.isMobilePlatform`.
 
 https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-isMobilePlatform.html
 
+## Video Player
+
+The `VideoPlayer` component does not support video assets in Web builds. To
+play videos, place the files in the `StreamingAssets` folder and access them 
+via a URL at runtime.
+
+Unity Play supports Web projects up to 500 MB in size, making it a good choice 
+if your project includes large video files.
+
 ## WebGPU
 
 - HDRP is not supported. [[HDRP]]
