@@ -92,3 +92,4 @@
 - [GDC 2024](Pages/GDC2024.md)
 - [上海 2024](Pages/Shanghai2024.md)
 - [台北 2024](Pages/Taipei2024.md)
+- [ソウル 2025](Pages/Seoul2025.md)
