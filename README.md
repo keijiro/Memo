@@ -34,6 +34,7 @@
 - [AI Translation](Pages/AITranslation.md)
 - [OS Installation](Pages/OSInstallation.md)
 - [ChatGPT](Pages/ChatGPT.md)
+- [RtMidi](Pages/RiMidi.md)
 
 ### Hardware
 
