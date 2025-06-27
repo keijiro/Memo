@@ -35,6 +35,7 @@
 - [OS Installation](Pages/OSInstallation.md)
 - [ChatGPT](Pages/ChatGPT.md)
 - [RtMidi](Pages/RtMidi.md)
+- [AI Coding Agents](Pages/AICodingAgents.md)
 
 ### Hardware
 
