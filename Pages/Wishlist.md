@@ -1,30 +1,47 @@
 # Wishlist
 
-Wishlist と言うか、導入を検討している機材をここに書き溜めていく。
+This is a running list of equipment I’m considering adding to my setup.
+More than just a wishlist—it’s a place to collect thoughts and document progress.
 
-2024/12/31 更新 - M4 Max MBP, 35mm レンズ、Stand Plus と、本当にここに記した順に購入していった。購入済みの機材は順次削除していく。
+**Last updated: 2024/12/31**
+So far, I’ve purchased the items in the exact order listed here: M4 Max MacBook Pro, 35mm lens, and the Stand Plus.
+As I acquire new gear, I’ll remove it from this list.
 
-## Camera Equipment
+---
+
+## 🎥 Camera Equipment
 
 ### Motorized Camera Sliders
 
-電動スライダーの導入を検討している。
+I’m exploring options for introducing motorized camera motion into my workflow.
 
-- 案１ - レールを使用しない、いわゆる電動ドリーの類を導入してみる。[Neewer のこの辺り](https://neewer.com/collections/sliders/products/video-camera-supports-66600072)とか。
-- 案２ - レールを使用する、比較的小型で安価なスライダーを導入してみる。[Toprig のこの辺り](https://www.amazon.co.jp/dp/B0CKYN3VGN)とか。
+* **Option 1: Motorized Dollies (No Rails)**
+  Considering compact solutions that don’t require a rail system—essentially, small motorized platforms.
+  [This Neewer model](https://neewer.com/collections/sliders/products/video-camera-supports-66600072) seems like a good starting point.
 
-今まで触れたことのない分野なのでどうすべきか迷う。まずは比較的安価な電動ドリーから試してみるべきか。
+* **Option 2: Rail-Based Sliders**
+  Slightly more involved setups using rails. I’m looking at compact and relatively affordable models like
+  [this one from Toprig](https://www.amazon.co.jp/dp/B0CKYN3VGN).
 
-TODO - いろいろ動画をチェックしてみる。
+Since I have no prior experience with motorized sliders or dollies, I’m undecided on which route to take.
+Leaning towards starting with a simpler, more affordable dolly to get a feel for the workflow.
 
-## Music Instruments
+**TODO:** Watch comparison/review videos and collect notes.
 
-個人的に MC-101 の再評価を進めており、新しい音楽機材に対する興味はかなり薄れつつある。
+---
 
-### Sonicware Liven Ambient 0
+## 🎹 Music Instruments
 
-音楽制作の道具というよりも、ライブ演奏のための楽器として、どれほど表現の幅が存在するか気になっている。大音響でドローンを鳴らしつつリアルタイムに操作したら楽しそう。
+### General Thoughts
 
-動画を色々チェックしてみたものの、リアルタイム演奏の余地がどれほどあるか推し量ることはできなかった。グルーヴボックスとしては廉価な方であるし、とりあえず買ってみてしまうのが良いか？
+Recently I’ve been re-evaluating the **Roland MC-101**, and it has somewhat diminished my appetite for exploring new music gear.
+Still, one instrument has caught my attention.
 
-その上で、映像とどのように連携させるか、色々考えてみる必要がある。とりあえず基本パラメーターは全て CC で MIDI 出力されているようなので、それを受け取って何かしらの操作を行うようにできるかもしれない。
+### Sonicware Liven Ambient Ø
+
+I'm intrigued not so much by its use in music production, but by its potential as a **performance instrument**—particularly for live drone-based textures with hands-on real-time manipulation.
+
+I’ve watched several demo videos, but it’s hard to gauge the actual flexibility and depth for real-time performance.
+As a groovebox, it’s certainly on the affordable side, so I might just pick one up and experiment directly.
+
+I’m also interested in how it could be **integrated with visuals**. Since it appears to send all basic parameters as MIDI CCs, there’s a possibility of using that data to drive or manipulate visuals in real time.
