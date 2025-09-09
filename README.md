@@ -67,6 +67,7 @@
 - [海外出張](Pages/TravelTips.md)
 - [NeRF](Pages/NeRF.md)
 - [Stable Diffusion](Pages/StableDiffusion.md)
+- [Wan Video Generation Model](Pages/WanVideo.md)
 - [Wi-Fi](Pages/WiFi.md)
 - [macOS](Pages/MacOS.md)
 - [LAN](Pages/LAN.md)
