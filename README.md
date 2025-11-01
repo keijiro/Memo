@@ -36,6 +36,7 @@
 - [ChatGPT](Pages/ChatGPT.md)
 - [RtMidi](Pages/RtMidi.md)
 - [AI Coding Agents](Pages/AICodingAgents.md)
+- [ComfyUI](Pages/ComfyUI.md)
 
 ### Hardware
 
