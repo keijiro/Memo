@@ -3,6 +3,8 @@
 Starting with Unity 6.3, the Package Manager shows warnings for packages
 without signatures.
 
+![warning message](https://github.com/user-attachments/assets/803e7d11-6423-4e4e-854f-331d520d58ee)
+
 There are a few options to avoid those warnings:
 
 1. Migrating to [UPM Publishing on Asset Store].
