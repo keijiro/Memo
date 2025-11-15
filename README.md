@@ -16,6 +16,7 @@
 - [Rust](Pages/RustLanguage.md)
 - [Unity Multi Display](Pages/UnityMultiDisplay.md)
 - [Unity Async Programming](Pages/UnityAsync.md)
+- [UPM Package](Pages/UPMPackage.md)
 
 ### Software
 
