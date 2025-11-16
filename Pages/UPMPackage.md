@@ -46,7 +46,7 @@ chose to use AI coding agents like Claude Code or Gemini CLI instead of it.
 I wrote an instruction sheet for AI agents. It describes the process and
 structure of my packages:
 
-https://github.com/keijiro/UnityCustomPackageTest/blob/master/AGENT.md
+https://github.com/keijiro/UnityCustomPackageTest/blob/master/AGENTS.md
 
 Using this sheet, I simply ask them to assemble release notes, update the
 package manifest, and push the result to GitHub and npmjs.com.
