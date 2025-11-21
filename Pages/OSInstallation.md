@@ -2,6 +2,28 @@
 
 My clean installation steps for several operating systems.
 
+## Ubuntu on Intel MacBook
+
+### Base system installation
+
+- macOS: Use [balenaEtcher](https://etcher.balena.io/) to create an installation USB stick.
+- macOS: Create an empty partition using Disk Utility.
+- Press the Option key while booting and boot the installer.
+- Install the system to the empty partition.
+- Enable the proprietary Wi-Fi driver.
+- Run the system updater. Use iPhone tethering the Wi-Fi driver is still disabled.
+
+### Disabling dGPU and enabling iGPU
+
+- This step is a bit complicated. Ask ChatGPT for the detailed steps.
+
+### User space setup
+
+- Sign into my GitHub account and [generate/register my SSH key](https://github.com/settings/keys).
+  - `ssh-keygen -t rsa -b 4096 -C "keijiro@gmail.com"`
+- Clone [dotfiles](https://github.com/keijiro/dotfiles) and run `setup`.
+- Install Unity Hub using [apt with the Unity Hub Repository](https://docs.unity3d.com/hub/manual/InstallHub.html)
+
 ## macOS
 
 - Change the host name.
