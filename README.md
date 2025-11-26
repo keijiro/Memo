@@ -67,6 +67,7 @@
 - [収納整理](Pages/StorageAndOrganizer.md)
 - [ホームスタジオ](Pages/HomeStudio.md)
 - [海外出張](Pages/TravelTips.md)
+- [荷物パッキング](Pages/TravelPacking.md)
 - [NeRF](Pages/NeRF.md)
 - [Stable Diffusion](Pages/StableDiffusion.md)
 - [Wan Video Generation Model](Pages/WanVideo.md)
