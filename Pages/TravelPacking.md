@@ -11,6 +11,8 @@
 
 ### Duffel Bag
 
+- [ ] Sony VZ-E1
+
 #### Gear Bag
 
 - [ ] Anker Charging Station
@@ -21,6 +23,7 @@
 - [ ] Manfrotto Pocket Tripod
 - [ ] SmallRig iPhone Cage
 - [ ] Roland UVC-01
+- [ ] Camera Cooler Fan
 
 #### Mesh Bag 1
 
@@ -35,9 +38,9 @@
 #### Mesh Bag 3
 
 - [ ] USB Cable (A to C)
-- [ ] USB Cable (C to C)
+- [ ] USB Cable (C to C) x 3
 - [ ] USB Cable (A to Micro B)
-- [ ] USB Converter (C to A)
+- [ ] USB Converter (C to A) x 2
 - [ ] USB Cable (A to B 3.0)
 - [ ] HDMI Cable (Full to Full)
 - [ ] HDMI Cable (Micro to Full)
