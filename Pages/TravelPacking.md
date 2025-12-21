@@ -11,7 +11,7 @@
 
 ### Duffel Bag
 
-#### Gear Bag (large)
+#### Gear Bag
 
 - [ ] Anker Charging Station
 - [ ] Victrinox Multitool
@@ -22,22 +22,25 @@
 - [ ] SmallRig iPhone Cage
 - [ ] Roland UVC-01
 
-- [ ] USB Cable (A-Micro) + C-A Adapter
-- [ ] HDMI Cable (Full-Full)
-- [ ] HDMI Cable (Micro-Full)
-- [ ] USB 3.0 A-B Cable
-
 #### Mesh Bag 1
 
 - [ ] MacBook Power Adapter 140W
 - [ ] MagSafe Cable
 
-#### Mesh Bag 3
+#### Mesh Bag 2
 
-- [ ] USB A-C Cable
-- [ ] USB-C Cable
 - [ ] Anker USB-C Dock
 - [ ] VAVA USB-C Dock
+
+#### Mesh Bag 3
+
+- [ ] USB Cable (A to C)
+- [ ] USB Cable (C to C)
+- [ ] USB Cable (A to Micro B)
+- [ ] USB Converter (C to A)
+- [ ] USB Cable (A to B 3.0)
+- [ ] HDMI Cable (Full to Full)
+- [ ] HDMI Cable (Micro to Full)
 
 ---
 
