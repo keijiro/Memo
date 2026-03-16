@@ -24,6 +24,7 @@
 ### Mesh Bag 1
 
 - [ ] Roland UVC-01
+- [ ] HDMI Cable
 - [ ] USB Cable (USB-3.0 Type-B Cable)
 
 #### Mesh Bag 2
@@ -39,7 +40,6 @@
 #### Mesh Bag 4
 
 - [ ] Anker USB-C Dock
-- [ ] HDMI Cable
 - [ ] USB-C Cable (long)
 - [ ] USB-C Cable (short) x2
 
