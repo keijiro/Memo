@@ -5,6 +5,7 @@
 ### Backpack
 
 - [ ] MacBook Pro
+- [ ] Launchpad X
 - [ ] AirPods
 - [ ] Anker PowerBank
 - [ ] USB Cables (A-C/C-C)
