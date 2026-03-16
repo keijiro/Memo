@@ -1,5 +1,49 @@
 # Travel Packing
 
+## Gear Lists (Karbon)
+
+### Backpack
+
+- [ ] MacBook Pro
+- [ ] AirPods
+- [ ] Anker PowerBank
+- [ ] USB Cables (A-C/C-C)
+
+### Duffel Bag
+
+#### Gear Bag (large)
+
+- [ ] Anker Charging Station
+- [ ] Victrinox Multitool
+- [ ] SmallRig Multitool
+- [ ] Permacel Tape
+- [ ] Zoom Q2n-4k
+- [ ] Manfrotto Pocket Tripod
+- [ ] USB Cable (A-Micro)
+- [ ] USB Adapter (C-A)
+
+### Mesh Bag 1
+
+- [ ] Roland UVC-01
+- [ ] USB Cable (USB-3.0 Type-B Cable)
+
+#### Mesh Bag 2
+
+- [ ] MacBook Power Adapter 140W
+- [ ] MagSafe Cable
+
+#### Mesh Bag 3
+
+- [ ] BMD Video Assist
+- [ ] AC Adapter
+
+#### Mesh Bag 4
+
+- [ ] Anker USB-C Dock
+- [ ] HDMI Cable
+- [ ] USB-C Cable (long)
+- [ ] USB-C Cable (short) x2
+
 ## Gear Lists (VVV)
 
 ### Backpack
