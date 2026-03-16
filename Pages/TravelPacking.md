@@ -15,7 +15,6 @@
 
 - [ ] Anker Charging Station
 - [ ] Victrinox Multitool
-- [ ] SmallRig Multitool
 - [ ] Permacel Tape
 - [ ] Zoom Q2n-4k
 - [ ] Manfrotto Pocket Tripod
