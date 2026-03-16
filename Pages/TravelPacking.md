@@ -20,6 +20,9 @@
 - [ ] Manfrotto Pocket Tripod
 - [ ] USB Cable (A-Micro)
 - [ ] USB Adapter (C-A)
+- [ ] Anker USB-C Dock
+- [ ] USB-C Cable (long)
+- [ ] USB-C Cable (short) x2
 
 ### Mesh Bag 1
 
@@ -36,12 +39,6 @@
 
 - [ ] BMD Video Assist
 - [ ] AC Adapter
-
-#### Mesh Bag 4
-
-- [ ] Anker USB-C Dock
-- [ ] USB-C Cable (long)
-- [ ] USB-C Cable (short) x2
 
 ## Gear Lists (VVV)
 
