@@ -17,6 +17,7 @@
 - [Unity Multi Display](Pages/UnityMultiDisplay.md)
 - [Unity Async Programming](Pages/UnityAsync.md)
 - [UPM Package](Pages/UPMPackage.md)
+- [glTF](Pages/glTF.md)
 
 ### Software
 
@@ -38,6 +39,8 @@
 - [RtMidi](Pages/RtMidi.md)
 - [AI Coding Agents](Pages/AICodingAgents.md)
 - [ComfyUI](Pages/ComfyUI.md)
+- [Google Stitch](Pages/GoogleStitch.md)
+- [Version Control](Pages/VersionControl.md)
 
 ### Hardware
 

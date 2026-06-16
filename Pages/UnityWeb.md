@@ -16,6 +16,11 @@ $ python3 -m http.server 8080
 However, this method does not support testing WebGPU builds, as they require 
 a secure context (i.e., HTTPS).
 
+When you have to run a build on a borrowed PC (e.g., for an event exhibit) where
+Python may not be available, [Caddy](https://caddyserver.com) is handy. Just drop
+in the portable `.exe` and it serves the current directory over a locally
+accessible web server with no installation required.
+
 ## Mobile Browsers
 
 You can easily detect whether a build is running on a desktop or mobile browser 
