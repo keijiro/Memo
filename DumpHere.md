@@ -27,3 +27,17 @@ NeoVim は便利だが日本語 Markdown の編集には使えない、という
 https://typora.io
 
 Markdown を編集できる軽量なテキストエディタとして Typora を導入することにした。日本語の使用も問題無く、今のところは支障無く使えている。
+
+# AI Assisted Video Editing
+
+## Palmier
+
+https://www.palmier.io
+
+AI 機能をメインに置いたビデオ編集アプリ。
+
+## Remotion
+
+https://www.remotion.dev
+
+コードによるモーショングラフィックス。AI コーディングエージェントとの相性が良く、使われ始めているらしい。
