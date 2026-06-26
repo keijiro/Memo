@@ -41,3 +41,28 @@ AI 機能をメインに置いたビデオ編集アプリ。
 https://www.remotion.dev
 
 コードによるモーショングラフィックス。AI コーディングエージェントとの相性が良く、使われ始めているらしい。
+
+# GitHub
+
+## 個人アカウントと会社アカウントの併用
+
+GitHub 上で個人アカウントと会社アカウントを併用するにあたって問題となるのが、同じ SSH キーを２つのアカウントで登録できない、というもの。これら２つのアカウントは異なる別々のキーを用意する必要がある。
+
+複数キーの併用にあたっては、SSH の `config` ファイルでエイリアスを設定するのが良い。
+
+```
+Host github-work
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_ed25519_work
+IdentitiesOnly yes
+```
+
+使用の際は以下のようにする。
+
+```sh
+git clone git@github-work:work-org/project.git
+```
+
+
+
