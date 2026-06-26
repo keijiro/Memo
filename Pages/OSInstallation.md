@@ -29,13 +29,13 @@ My clean installation steps for several operating systems.
 - Change the host name.
 - Install brew.
   - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-- Sign into my GitHub account and [generate/register my SSH key](https://github.com/settings/keys).
-  - `ssh-keygen -t rsa -b 4096 -C "keijiro@gmail.com"`
+- Generate SSH keys.
+  - `ssh-keygen -t ed25519 -C "keijiro@gmail.com"`
+  - `ssh-keygen -t ed25519 -C "keijiro@unity3d.com" -f ~/.ssh/id_ed25519_unity`
+- Sign into my GitHub account and [register my SSH key](https://github.com/settings/keys).
 - Install [Lilex Nerd Font](https://www.nerdfonts.com/font-downloads).
 - Clone [dotfiles](https://github.com/keijiro/dotfiles) and run `setup`.
 - Install [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe).
-- Optional: Install "Ungoogled" Chromium.
-  - `brew install eloston-chromium`
 
 ## Windows 11
 
