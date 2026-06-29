@@ -64,5 +64,10 @@ IdentitiesOnly yes
 git clone git@github-work:work-org/project.git
 ```
 
+# AI Shader Coding
 
+Unity の Lit シェーダーを AI agent に書いてもらうのは非常に難しい。ボイラープレート部分を正しく真似するだけでもかなりのテキスト量になる（500行ぐらい）うえ、バージョン毎の差異が激しいため。
 
+テスト条件を整えれば自力で動作するところまで辿り着かせることも可能だが、そこまで労力をかけるべきことか？という疑問に当たる。
+
+Shader Function Reflection API などを使用して Shader Graph との組み合わせで省力化する道を探るべきだろう。
