@@ -41,6 +41,8 @@
 - [ComfyUI](Pages/ComfyUI.md)
 - [Google Stitch](Pages/GoogleStitch.md)
 - [Version Control](Pages/VersionControl.md)
+- [Text Editor](Pages/TextEditor.md)
+- [AI Video Editing](Pages/AIVideoEditing.md)
 
 ### Hardware
 
@@ -50,6 +52,7 @@
 - [OAK-D-Lite](Pages/OAK-D-Lite.md)
 - [SDI](Pages/SDI.md)
 - [Keyboard](Pages/Keyboard.md)
+- [Pointing Device](Pages/PointingDevice.md)
 - [Mirrorless Camera](Pages/MirrorlessCamera.md)
 - [Blackmagic Design Products](Pages/Blackmagic.md)
 - [Meta Quest Pro](Pages/QuestPro.md)
