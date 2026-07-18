@@ -88,6 +88,7 @@
 - [モバイル通信プラン](Pages/MobileDataPlan.md)
 - [3D Gaussian Splatting](Pages/3DGaussianSplatting.md)
 - [Noise Functions](Pages/NoiseFunctions.md)
+- [老いる、とは](Pages/GrowingOld.md)
 
 ### Project Logs
 
@@ -97,6 +98,7 @@
 - [Rcam4](Pages/Rcam4.md)
 - [Dcam](Pages/Dcam.md)
 - [SquareWheeler](Pages/SquareWheeler.md)
+- [MiniBokeh](Pages/MiniBokeh.md)
 
 ### Travel Logs
 
