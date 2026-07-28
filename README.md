@@ -43,6 +43,7 @@
 - [Version Control](Pages/VersionControl.md)
 - [Text Editor](Pages/TextEditor.md)
 - [AI Video Editing](Pages/AIVideoEditing.md)
+- [Slidev](Pages/Slidev.md)
 
 ### Hardware
 
